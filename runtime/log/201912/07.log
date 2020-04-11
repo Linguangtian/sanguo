@@ -1,0 +1,738 @@
+---------------------------------------------------------------
+[ 2019-12-07T15:23:11+08:00 ] 0.0.0.0 GET localhost/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006248s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:23:19+08:00 ] 0.0.0.0 GET localhost/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001589s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:23:21+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010688s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:23:23+08:00 ] 0.0.0.0 POST localhost/index/Index/yuyue
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011017s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:23:23+08:00 ] 0.0.0.0 GET localhost/index/Index/checkGame
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011151s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:23:28+08:00 ] 0.0.0.0 GET localhost/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011323s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:23:31+08:00 ] 0.0.0.0 GET localhost/index/User/isAuthApi
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001545s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:23:35+08:00 ] 0.0.0.0 GET localhost/index/user/bankcard.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010633s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:23:39+08:00 ] 0.0.0.0 GET localhost/index/User/add_payment?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011576s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:24:02+08:00 ] 0.0.0.0 POST localhost/index/Login/smsCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001585s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:24:08+08:00 ] 0.0.0.0 POST localhost/index/User/add_payment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010052s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:24:09+08:00 ] 0.0.0.0 GET localhost/index/user/bankcard.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004036s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:24:16+08:00 ] 0.0.0.0 GET localhost/index/User/add_payment?id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001554s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:24:31+08:00 ] 0.0.0.0 POST localhost/index/Login/smsCode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011705s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:24:38+08:00 ] 0.0.0.0 POST localhost/index/User/add_payment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010275s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:24:40+08:00 ] 0.0.0.0 GET localhost/index/user/bankcard.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011500s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:25:03+08:00 ] 0.0.0.0 GET localhost/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011357s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:25:06+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001631s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:25:08+08:00 ] 0.0.0.0 POST localhost/index/Index/yuyue
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010329s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:25:08+08:00 ] 0.0.0.0 GET localhost/index/Index/checkGame
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011949s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:25:10+08:00 ] 0.0.0.0 POST localhost/index/Index/yuyue
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011528s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:25:10+08:00 ] 0.0.0.0 GET localhost/index/Index/checkGame
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011169s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:25:11+08:00 ] 0.0.0.0 GET localhost/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011978s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:25:13+08:00 ] 0.0.0.0 GET localhost/index/User/isAuthApi
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011202s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:25:13+08:00 ] 0.0.0.0 GET localhost/index/user/authentication.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011549s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:25:23+08:00 ] 0.0.0.0 POST localhost/index/User/authentication
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010451s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:25:33+08:00 ] 0.0.0.0 POST localhost/index/User/authentication
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001769s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:26:05+08:00 ] 0.0.0.0 POST localhost/index/User/authentication
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011172s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:26:06+08:00 ] 0.0.0.0 GET localhost/index/User/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010155s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:26:18+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001696s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:26:20+08:00 ] 0.0.0.0 POST localhost/index/Index/yuyue
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011809s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:26:20+08:00 ] 0.0.0.0 GET localhost/index/Index/checkGame
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001440s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:26:22+08:00 ] 0.0.0.0 GET localhost/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002002s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:26:33+08:00 ] 0.0.0.0 GET localhost/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001719s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:26:46+08:00 ] 0.0.0.0 GET localhost/admin/wealth/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011986s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:26:50+08:00 ] 0.0.0.0 GET localhost/admin/user/identityauth.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010998s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:26:53+08:00 ] 0.0.0.0 GET localhost/admin/user/audit/id/33/status/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001780s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:26:54+08:00 ] 0.0.0.0 GET localhost/admin/user/identityauth.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011521s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:26:55+08:00 ] 0.0.0.0 GET localhost/admin/user/userbank/uid/56.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011839s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:27:00+08:00 ] 0.0.0.0 GET localhost/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009935s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:27:02+08:00 ] 0.0.0.0 GET localhost/index/User/isAuthApi
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011725s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:27:03+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011174s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:27:05+08:00 ] 0.0.0.0 POST localhost/index/Index/yuyue
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001912s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:27:05+08:00 ] 0.0.0.0 GET localhost/index/Index/checkGame
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011252s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:27:12+08:00 ] 0.0.0.0 GET localhost/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001824s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:27:38+08:00 ] 0.0.0.0 GET localhost/admin/user/edit/id/57.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011549s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:27:47+08:00 ] 0.0.0.0 GET localhost/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011202s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:28:04+08:00 ] 0.0.0.0 GET localhost/admin/user/edit/id/56.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010069s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:28:18+08:00 ] 0.0.0.0 GET localhost/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010041s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:28:20+08:00 ] 0.0.0.0 GET localhost/index/user/blessings_log.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001517s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:28:21+08:00 ] 0.0.0.0 GET localhost/index/user/blessings_recharge
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011731s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:28:40+08:00 ] 0.0.0.0 POST localhost/index/user/blessings_recharge
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001821s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:28:41+08:00 ] 0.0.0.0 GET localhost/index/user/blessings_recharge
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010556s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:28:48+08:00 ] 0.0.0.0 GET localhost/admin/wealth/applyrecharge.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011741s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:28:52+08:00 ] 0.0.0.0 GET localhost/admin/wealth/audrecharge/id/6.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001686s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:28:56+08:00 ] 0.0.0.0 GET localhost/admin/wealth/applyrecharge.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010904s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:28:56+08:00 ] 0.0.0.0 GET localhost/index/user/blessings_recharge
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001421s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:28:57+08:00 ] 0.0.0.0 GET localhost/index/user/blessings_log.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010725s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:28:58+08:00 ] 0.0.0.0 GET localhost/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011589s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:29:01+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011834s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:29:06+08:00 ] 0.0.0.0 POST localhost/index/Index/yuyue
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011272s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:29:08+08:00 ] 0.0.0.0 POST localhost/index/Index/yuyue
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010261s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:29:16+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010867s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:29:29+08:00 ] 0.0.0.0 GET localhost/admin/task/taskedit/id/38.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011226s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:29:40+08:00 ] 0.0.0.0 POST localhost/admin/task/taskedit.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010747s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:29:41+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010287s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:29:42+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001642s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:29:43+08:00 ] 0.0.0.0 GET localhost/index/Index/flash_buy?id=38
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001649s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:29:54+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011193s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:30:04+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011066s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:30:14+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011613s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:30:24+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001799s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:30:34+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011044s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:30:44+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011757s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:30:50+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001708s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:30:51+08:00 ] 0.0.0.0 GET localhost/index/Index/flash_buy?id=38
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011790s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:31:02+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011343s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:31:12+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010108s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:31:21+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010113s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:31:23+08:00 ] 0.0.0.0 GET localhost/index/Index/flash_buy?id=38
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011443s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:31:34+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009993s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:31:38+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001708s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:31:40+08:00 ] 0.0.0.0 GET localhost/index/Index/flash_buy?id=38
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011268s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:31:42+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011160s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:31:49+08:00 ] 0.0.0.0 GET localhost/index/Index/flash_buy?id=38
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011124s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:32:01+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011064s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:32:11+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001474s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:32:21+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011539s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:32:31+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010694s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:32:41+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001620s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:32:51+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010710s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:33:00+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011335s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:33:11+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011161s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:33:21+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011515s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:33:31+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001718s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:33:41+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011034s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:33:51+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011194s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:34:01+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011487s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:34:11+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001616s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:34:21+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010262s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:34:31+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011007s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:34:41+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010241s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:34:51+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011718s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:35:01+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011261s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:35:11+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010843s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:35:21+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010742s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:35:31+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011068s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:35:41+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011363s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:35:53+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013507s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:36:01+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010312s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:36:11+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001681s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:36:21+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010157s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:36:31+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011476s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:36:41+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001769s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:36:51+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010858s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:37:01+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011397s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:37:11+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001720s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:37:21+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011046s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:37:27+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011615s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:37:29+08:00 ] 0.0.0.0 GET localhost/index/Index/flash_buy?id=38
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010943s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:37:40+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011478s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:37:50+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011238s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:38:00+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012076s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:38:10+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011813s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:38:21+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001581s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:38:31+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001933s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:38:41+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002004s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:38:47+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012058s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:38:49+08:00 ] 0.0.0.0 GET localhost/admin/system/siteconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010181s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:38:51+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014681s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:39:01+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001560s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:39:11+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001563s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:39:21+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011724s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:39:31+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001525s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:39:41+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001622s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:39:51+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010079s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:40:01+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011237s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:40:08+08:00 ] 0.0.0.0 POST localhost/admin/system/updatesiteconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010979s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:40:09+08:00 ] 0.0.0.0 GET localhost/admin/system/siteconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001616s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:40:10+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011316s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:40:12+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011313s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:40:20+08:00 ] 0.0.0.0 GET localhost/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001616s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:40:22+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001787s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:40:27+08:00 ] 0.0.0.0 GET localhost/admin/system/baseconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001724s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:40:30+08:00 ] 0.0.0.0 GET localhost/admin/menu/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011876s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:40:35+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001729s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:40:36+08:00 ] 0.0.0.0 GET localhost/admin/task/taskedit/id/38.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011320s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:41:01+08:00 ] 0.0.0.0 POST localhost/admin/task/taskedit.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001633s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:41:02+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010847s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:41:04+08:00 ] 0.0.0.0 GET localhost/admin/task/taskedit/id/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011441s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:41:09+08:00 ] 0.0.0.0 POST localhost/admin/task/taskedit.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010900s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:41:10+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011112s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:41:13+08:00 ] 0.0.0.0 GET localhost/admin/task/taskedit/id/40.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010911s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:41:18+08:00 ] 0.0.0.0 POST localhost/admin/task/taskedit.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001761s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:41:19+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011120s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:41:21+08:00 ] 0.0.0.0 GET localhost/admin/task/taskedit/id/38.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011865s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:41:39+08:00 ] 0.0.0.0 POST localhost/admin/task/taskedit.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010632s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:41:40+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001641s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:41:42+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010170s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:41:51+08:00 ] 0.0.0.0 GET localhost/admin/task/taskedit/id/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001725s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:41:57+08:00 ] 0.0.0.0 POST localhost/admin/task/taskedit.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001823s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:41:58+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011217s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:42:32+08:00 ] 0.0.0.0 GET localhost/index/Index/flash_buy?id=38
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002007s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:42:43+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011335s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:42:53+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001603s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:43:04+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001658s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:43:14+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011260s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:43:24+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011106s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:43:34+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011043s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:43:44+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011538s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:43:54+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001551s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:44:04+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011336s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:44:14+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011235s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:44:24+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001500s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:44:34+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011476s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:44:44+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012125s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:44:54+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011534s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:45:04+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001617s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:45:14+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011506s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:45:24+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001695s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:45:34+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011855s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:45:36+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002090s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T15:45:37+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002287s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:49:13+08:00 ] 0.0.0.0 GET localhost/admin/task/taskedit/id/34.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002109s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:49:40+08:00 ] 0.0.0.0 POST localhost/admin/task/taskedit.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011465s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:49:41+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011682s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:51:13+08:00 ] 0.0.0.0 GET localhost/admin/task/taskedit/id/36.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011454s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:51:21+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011879s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:51:24+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010586s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:51:27+08:00 ] 0.0.0.0 GET localhost/admin/task/taskedit/id/36.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011604s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:51:38+08:00 ] 0.0.0.0 POST localhost/admin/task/taskedit.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011836s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:51:39+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001556s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:52:52+08:00 ] 0.0.0.0 GET localhost/admin/task/taskedit/id/34.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011612s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:53:21+08:00 ] 0.0.0.0 POST localhost/admin/task/taskedit.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001893s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:53:22+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012092s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:53:24+08:00 ] 0.0.0.0 GET localhost/admin/task/taskedit/id/33.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001711s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:54:02+08:00 ] 0.0.0.0 POST localhost/admin/task/taskedit.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011099s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:54:03+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001519s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:54:06+08:00 ] 0.0.0.0 GET localhost/admin/task/taskedit/id/37.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001572s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:54:36+08:00 ] 0.0.0.0 POST localhost/admin/task/taskedit.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011071s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:54:37+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011945s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:54:41+08:00 ] 0.0.0.0 GET localhost/admin/task/taskedit/id/37.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011857s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:54:48+08:00 ] 0.0.0.0 POST localhost/admin/task/taskedit.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001745s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:54:49+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011822s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:54:52+08:00 ] 0.0.0.0 GET localhost/admin/task/taskedit/id/41.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011170s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:55:09+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001762s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:55:13+08:00 ] 0.0.0.0 GET localhost/admin/task/taskedit/id/34.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010072s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:55:36+08:00 ] 0.0.0.0 POST localhost/admin/task/taskedit.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011286s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:55:37+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001538s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:55:43+08:00 ] 0.0.0.0 GET localhost/admin/task/taskedit/id/41.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001750s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:56:02+08:00 ] 0.0.0.0 POST localhost/admin/task/taskedit.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001960s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:56:03+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001989s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:56:07+08:00 ] 0.0.0.0 GET localhost/admin/task/taskedit/id/40.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001759s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:57:11+08:00 ] 0.0.0.0 POST localhost/admin/task/taskedit.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011389s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:57:13+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001471s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:57:16+08:00 ] 0.0.0.0 GET localhost/admin/task/taskedit/id/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011309s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:57:47+08:00 ] 0.0.0.0 POST localhost/admin/task/taskedit.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001692s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:57:48+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002046s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:57:51+08:00 ] 0.0.0.0 GET localhost/admin/task/taskedit/id/38.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011105s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:58:15+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011363s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:58:45+08:00 ] 0.0.0.0 POST localhost/admin/task/taskedit.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011432s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:58:47+08:00 ] 0.0.0.0 GET localhost/admin/task/taskconfig.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001389s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:58:47+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011404s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:59:16+08:00 ] 0.0.0.0 GET localhost/index/Index/flash_buy?id=41
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010165s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:59:28+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001540s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:59:38+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001566s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:59:48+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001821s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T16:59:58+08:00 ] 0.0.0.0 POST localhost/index/Index/checkFlushOpen
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001650s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T17:00:01+08:00 ] 0.0.0.0 GET localhost/admin/wealth/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010966s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T17:00:02+08:00 ] 0.0.0.0 GET localhost/admin/shop/withdraw.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001766s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T17:00:03+08:00 ] 0.0.0.0 GET localhost/admin/wealth/applyrecharge.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001521s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T17:00:07+08:00 ] 0.0.0.0 GET localhost/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011159s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T17:01:10+08:00 ] 0.0.0.0 GET localhost/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001616s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T17:01:13+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001727s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T17:01:38+08:00 ] 0.0.0.0 GET localhost/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001649s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T17:02:03+08:00 ] 0.0.0.0 GET localhost/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001574s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T17:02:05+08:00 ] 0.0.0.0 GET localhost/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011582s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T17:02:07+08:00 ] 0.0.0.0 GET localhost/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011722s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T17:02:09+08:00 ] 0.0.0.0 GET localhost/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001794s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T17:02:11+08:00 ] 0.0.0.0 GET localhost/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001735s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T17:02:13+08:00 ] 0.0.0.0 GET localhost/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002042s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T17:02:14+08:00 ] 0.0.0.0 GET localhost/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001879s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T17:02:17+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001741s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T17:02:19+08:00 ] 0.0.0.0 GET localhost/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001811s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T17:02:29+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011788s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
+---------------------------------------------------------------
+[ 2019-12-07T17:03:00+08:00 ] 0.0.0.0 GET localhost/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001636s ] mysql:host=127.0.0.1;dbname=qukuai;charset=utf8
