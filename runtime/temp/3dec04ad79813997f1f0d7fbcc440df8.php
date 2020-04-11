@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:35:"./themes/hdindex/service\index.html";i:1551682237;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:35:"./themes/hdindex/service\index.html";i:1586615643;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -57,6 +57,18 @@
         .mui-content{margin-top:2.6rem}
         .grid_menu .item {width:50%}
         .grid_menu{  margin: 0rem!important;}
+        .ji-sc{
+            height: 4rem;
+            text-align: center;
+            line-height: 4rem;
+            font-size: 0.8rem;
+            color: #ffffff;
+            border: 1px solid #ffffff;
+            display: block;
+        }
+        .ji-sc a{
+            color: #ffffff;
+        }
     </style>
 </div>
 
@@ -78,7 +90,15 @@
                     <h3>線上客服</h3>
                 </a>
             </div>
-        </div></div>
+        </div>
+
+        <a class="ji-sc" href="/index/index/Integral_shop">
+           积分商城
+        </a>
+
+
+
+    </div>
 </div>
 <!--底部导航-start-->
 <style>
@@ -157,7 +177,7 @@
                 <a  href="<?php echo url('index/index'); ?>">
                     <div class="icon">
                         <i class="icon-gongneng iconfont"></i>
-                        <p>龟集市</p>
+                        <p>乱世王者</p>
                     </div>
                 </a>
             </li>
@@ -175,7 +195,7 @@
                 <a href="<?php echo url('user/index'); ?>">
                     <div class="icon">
                         <i class="icon-my iconfont"></i>
-                        <p>我的龟圈</p>
+                        <p>我的锦囊</p>
                     </div>
                 </a>
             </li>
@@ -201,36 +221,18 @@
 
             var page = plus.webview.getWebviewById(id);
             if (page) {
-                //
                 var nwaiting = plus.nativeUI.showWaiting();//显示原生等待框
-
-
-
-
                 var curdoghomeviewurl = page.getURL();
                 if (curdoghomeviewurl == weburls) {
                     page.reload(true);
                     page.show();
                     nwaiting.close();
-                    //page.show();
                 }
                 else {
-                    //page.destroy();
                     location.href = weburls;
-                    //page.loadURL(weburls);
-                    //page.show();
                     nwaiting.close();
 
                 }
-
-
-
-                //page.reload(true);
-                //if (id == "dogmarket")
-                //{
-                //    ajaxshowdoglist();
-                //}
-                //page.show();
             }
             else {
                 var nwaiting = plus.nativeUI.showWaiting();//显示原生等待框

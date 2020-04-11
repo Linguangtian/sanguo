@@ -129,6 +129,26 @@
                             <input type="text" name="max_stock" value="{$taskInfo.max_stock}" required lay-verify="required" placeholder="请输入最大库存" class="layui-input">
                         </div>
                     </div>
+
+
+                     <div class="layui-form-item">
+                        <label class="layui-form-label">是否积分商品</label>
+                        <div class="layui-input-block" style="width: 32%;">
+
+                            <input type="checkbox" name="is_integral_goods" lay-skin="switch"  lay-text="是|否" {if condition="$taskInfo.is_integral_goods eq 'on'"} checked {/if}>
+                        </div>
+                    </div>
+
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">价值（幸运/推广币）</label>
+                        <div class="layui-input-block" style="width: 32%;">
+                            <input type="text" name="integral_price" value="{$taskInfo.integral_price}" required lay-verify="required" placeholder="价格" class="layui-input">
+                        </div>
+                    </div>
+
+
+
                     <input type="hidden" name="id" value="{$taskInfo.id}">
                     <div class="layui-form-item">
                         <div class="layui-input-block">

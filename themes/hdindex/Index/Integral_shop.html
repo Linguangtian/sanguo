@@ -5,9 +5,13 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
 <link rel="stylesheet" href="/public/static/index/assets/css/zpui.css"/>
 <link rel="stylesheet" href="/public/static/index/assets/css/all.css"/>
+
 <script src="/public/static/index/assets/js/page.js"></script>
       <title>武将集市</title>
       <style>
+          .index .page-bd .piglist .box .info{
+              line-height: 0.25rem;
+          }
           .kaijiang{
               background: #f55231 !important;
           }
@@ -43,6 +47,29 @@
 
         /* 语言选择框颜色 */
         .goog-te-combo {background-color:#848CB5; border-radius:8px;}
+          .classreturn {
+              height:0.666667rem;
+              background: #272834;
+              text-shadow: 1px 1px 1px #000;
+              display: flex;
+
+          }
+          .classreturn div{
+              flex:1;
+          }
+          .classreturn div:nth-child(1){
+                padding-top: 0.17rem;
+              padding-left: 0.17rem;
+          }
+          .classreturn div:nth-child(2){
+            text-align: center;
+              line-height: 0.666667rem;
+              color: #ffffff;
+              font-size: 0.3rem;
+          }
+          .b-grey{
+              background: #999!important;
+          }
       </style>
   </head>
   <body>
@@ -57,7 +84,16 @@
       <div class="page-bd">
         <!-- 页面内容 -->
         <!-- <div class="imgBox"><img src="/public/static/index/assets/images/name.png" alt="" /></div> -->
-        <div class="imgBox" style="color: #fff;padding: 0.12rem 0;font-size: 0.226667rem;font-weight: bold;">武将集市</div>
+              <div class="classreturn  ">
+                  <div><a href="javascript:history.go(-1)"><img src="https://block-dog.oss-cn-beijing.aliyuncs.com/template/mobile/block/static/images/return.png" alt="返回"></a></div>
+                  <div>积分商城</div>
+                  <div></div>
+             </div>
+
+
+
+        <!--头部-->
+
         <div class="piglist">
             {volist name="piglist" id="pig"}
           <div class="box" id="pig_level_{$pig.id}">
@@ -66,26 +102,26 @@
               <img src="{$pig.img}" alt="" />
               <span class="fs34 fw_b">{$pig.name}</span>
             </div>
-            <div class="info fs22">
-              <div>价值:<span>{$pig.min_price}-{$pig.max_price}</span></div>
+            <div class="info fs22" >
               <div>召唤时间:<span>{$pig.start_time}-{$pig.end_time}</span></div>
-              <div>预约/即抢召唤粮草:<span>{$pig.pay_points}/{$pig.qiang_points}</span></div>
               <div>智能合约收益:<span>{$pig.cycle}天/{$pig.contract_revenue}%</span></div>
               <div>可挖PIG:<span>{$pig.pig}枚</span></div>
               <div>可挖DOGE:<span>收益{$pig.doge}%</span></div>
+              <div>价格:<span>{$pig.integral_price}</span></div>
+
+
             </div>
             <div class="btns">
-              {switch name="pig.game_status"}
-                {case value="0"} <div class="button fs28 fw_b buttoning level_btn fanzhi">繁殖中</div>{/case}
-              {case value="1"} <div class="button fs28 fw_b buttoned" data-id="{$pig.id}">预约</div>{/case}
-              {case value="2"} <div class="button fs28 fw_b buttoning">已预约</div>{/case}
-              {case value="3"} <div class="button fs28 fw_b buttoning">公布中</div>{/case}
-              {case value="4"} <div class="button fs28 fw_b buttoning level_btn kaijiang" data-id="{$pig.id}">开抢</div>{/case}
-              {/switch}
+                {if condition="$pig.game_status eq 4" }
+                  <div class="button fs28 fw_b buttoning level_btn kaijiang" data-id="{$pig.id}">兑换</div>
+                {else}
+                  <div class="button b-grey fs28 fw_b buttoning level_btn " data-id="{$pig.id}">已兑换</div>
+                {/if}
+
             </div>
           </div>
             {/volist}
-
+      
         </div>
         <div class="model">
             <div class="modelBG"></div>
@@ -114,29 +150,7 @@
         </div>
       </div>
       <div class="bottom-tabbar-wrapper">
-  <div class="bottom-tabbar">
-    <a href="index.html" class="bottom-tabbar__item active">
-        <span class="icon">
-            <img src="/public/static/index/assets/images/bottom_icon01.png"/>
-            <img class="lhimg" src="/public/static/index/assets/images/bottom_icon01_lh.png"/>
-        </span>
-      <p class="label">武将集市</p>
-    </a>
-    <a href="{:url('service/index')}" class="bottom-tabbar__item ">
-      <span class="icon">
-          <img src="/public/static/index/assets/images/bottom_icon02.png"/>
-          <img class="lhimg" src="/public/static/index/assets/images/bottom_icon02_lh.png"/>
-      </span>
-    <p class="label">服务中心</p>
-    </a>
-    <a href="{:url('user/index')}" class="bottom-tabbar__item ">
-        <span class="icon">
-            <img src="/public/static/index/assets/images/bottom_icon03.png"/>
-            <img class="lhimg" src="/public/static/index/assets/images/bottom_icon03_lh.png"/>
-        </span>
-      <p class="label">我的武将</p>
-    </a>
-  </div>
+
 </div>
 <audio src="/public/static/index/assets/audio/9888.wav" id="error"></audio>
 <audio src="/public/static/index/assets/audio/10762.wav" id="success"></audio>
@@ -160,71 +174,7 @@
 </script>
     <script>
     $(function(){
-    //
-    //     var __gameTimeController = 0 ;      //游戏定时器
-    //     var __gameTimeAward = 0 ; //开奖过程时间
-    //      window.isyuyue = {};
-    //
-    //     var url = '/api/nologin/pig_goods';
-    //     var type = 'get';
-    //
-    //     already_yuyue(); //初始化预约列表
-    //     console.log(isyuyue);
-    //
-    //       a_load(url,{},type,function(data){
-    //
-    //           console.log(data.data)
-    //           var str = html ='';
-    //           var eachcount=0;
-    //
-    //           $.each(data.data, function(i, obj) {
-    //
-    //             //如果是开奖了，那么全部变成繁殖中
-    //             if(obj.today_is_open == 1){
-    //                 obj.game_level = 3;
-    //             }
-    //             str += '<div class="box" id="pig_level_'+obj.id+'">';
-    //             str += '<div class="pigimg">';
-    //             str += '<img src="/uploads/images/'+obj.images+'" alt="" />';
-    //             str += '<span class="fs34 fw_b">'+obj.goods_name+'</span>';
-    //             str += '</div>';
-    //             str += '<div class="info fs22" >';
-    //             str += '<div>价值:<span>'+obj.small_price+'-'+obj.large_price+'</span></div>';
-    //             str += '<div>召唤时间:<span>'+obj.start_time+'-'+obj.end_time+'</span></div>';
-    //             str += '<div>预约/即抢召唤粮草:<span>'+obj.reservation+'/'+obj.adoptive_energy+'</span></div>';
-    //             str += '<div>智能合约收益:<span>'+obj.contract_days+'天/'+obj.income_ratio+'%</span></div>';
-    //             str += '<div>可挖DSC:<span>'+obj.pig_currency+'枚</span></div>';
-    //             str += '<div>可挖DOGE:<span>'+obj.doge_money+'%</span></div>';
-    //             str += '</div>';
-    //             str += '<div class="game_btn">'
-    //             str +=  btn_style(obj.game_level,obj.id);
-    //             str += '</div></div>';
-    //
-    //           /*  str += '<div class="box" id="pig_level_'+obj.id+'">';
-    //             str += '<div class="pigimg">';
-    //             str += '<img src="/uploads/images/'+obj.images+'" alt="" />';
-    //             str += '<span class="fs34 fw_b">'+obj.goods_name+'</span>';
-    //             str += '</div>';
-    //             str += '<div class="info fs22" >';
-    //             str += '<div>价值:'+obj.small_price+'-'+obj.large_price+'</div>';
-    //             str += '<div>召唤时间:'+obj.start_time+'-'+obj.end_time+'</div>';
-    //             str += '<div>预约/即抢召唤粮草:'+obj.reservation+'/'+obj.adoptive_energy+'</div>';
-    //             str += '<div>智能合约收益:'+obj.contract_days+'天/'+obj.income_ratio+'%</div>';
-    //             str += '<div>可挖PIG:'+obj.pig_currency+'枚</div>';
-    //             str += '<div>可挖DOGE:'+obj.doge_money+'%</div>';
-    //             str += '</div>';
-    //             str += '<div class="game_btn">'
-    //             str +=  btn_style(obj.game_level,obj.id);
-    //             str += '</div></div>';*/
-    //           });
-    //           $(".piglist").append(str);
-    //           //防止加载不到
-    //           setTimeout("checkGame()",50);
-    //
-    //       })
-    //
-    //
-    //     //每隔5S校验游戏
+
    
 
         //按钮样式
@@ -262,14 +212,7 @@
             }
             return html;
         }
-        //获取所有已经预约的游戏--json格式
-        // function already_yuyue(){
-        //       //var isyuyue = {};
-        //     __oajax('/api/Game/isYuyueData',{},type,function(data){
-        //         console.log(data.data,1111111);
-        //         window.isyuyue = data.data;
-        //     });
-        // }
+
 
     //第一阶段判断是待召唤还是预约
     function stage1(id){
@@ -300,80 +243,41 @@
 
     //阶段处理
     //点击抢购
-     $(document).on('click','.kaijiang',function(){
-         var id =  $(this).data('id');
-        $('.model').show();
-        //2019-3-12-----------
-        $('.succeed').hide();
-        $('.fail').hide();
-        //2019-3-12-----------
-         $.get('/index/Index/flash_buy',{id:id},function(data){
+        $(document).on('click','.kaijiang',function(){
+            var id =  $(this).data('id');
+            var endtime =  $(this).data('endtime');
+            var but =  $(this);
 
-            //已经返回结果一次结果
-            var _data = data;
-            console.log(_data);
-            if(_data.code == 1){
-                //alert('进入成功');
-                var _aw_time = $('input[name="game_openaward"]').val();
 
-                window.setTimeout(function(){
-                    //查询次数
-                    var sel_count =  10000;
-                    var _interval = window.setInterval(function(){
-                        console.log(sel_count);
-                        if(sel_count > 0){
-                            $.post('/index/Index/checkFlushOpen',{id:id},function(data){
-                                if(data.code == 1 || data.code == 2){
-                                    window.clearInterval(_interval);
-                                    if(data.code == 1){
-                                        $('.loading').hide();
-                                        $('.succeed').show();
-                                        var success = document.getElementById('success');
-                                        $('#pig_level_'+ id +' .btns').html('<div class="button fs28 fw_b buttoning level_btn fanzhi">繁殖中</div>')
-                                        success.play();//audio.play();// 这个就是播放
-                                    }else{
-                                        $('.loading').hide();
-                                        $('.fail').show();
-                                        var error = document.getElementById('error');
-                                        error.play();//audio.play();// 这个就是播放
-                                    }
-                                }else{
-                                    sel_count --;
-                                }
-                            })
-                        }else{
-                            window.clearInterval(_interval);
-                            $('.model').hide();
-                            $('.loading').hide();
-                            $('.fail').show();
-                            var error = document.getElementById('error');
-                            error.play();//audio.play();// 这个就是播放
-                            layer.open({
-                                content: '网络异常'
-                                ,time: 2
-                                ,skin: 'msg'
-                            });
+            $('.model').show();
+            //2019-3-12-----------
+            $('.succeed').hide();
+            $('.fail').hide();
 
-                        }
 
-                    },10000)
-                },_aw_time);
-            }else{
+            $.get('/index/Index/integral_buy',{id:id},function(data){
+
+                //已经返回结果一次结果
+                var _data = data;
+                console.log(_data);
+
                 $('.model').hide();
                 $('.loading').hide();
-                // $('.fail').show();
-                // var error = document.getElementById('error');
-                // error.play();//audio.play();// 这个就是播放
 
                 layer.open({
                     content:_data.msg
                     ,skin: 'msg'
                     ,time: 2 //2秒后自动关闭
                 });
-            }
-            //第二次访问查看是否有中奖
+                if(_data.code == 1){
+                    //alert('进入成功');
+                    $(but).removeClass('kaijiang');
+                    $(but).addClass('b-grey');
+                    $(but).html('已召唤');
+                }
+                //第二次访问查看是否有中奖
+            });
         });
-    });
 
     //校验游戏
     var id = $('input[name=game_id]');
@@ -475,12 +379,7 @@
 		checkGame();
    },3000);
 
-        // function detail(){
-        // var success = document.getElementById('success'); 
-        // var audio1 = document.getElementById('error'); 
-        // success.play(); //这个就是播放  
-        // audio1.play(); //这个就是播放  
-        // }
+
     })
     function closeBox(){
         $('.model').hide();

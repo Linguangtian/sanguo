@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:36:"./themes/admin/task\task_config.html";i:1575616875;s:42:"D:\phpstudy_pro\WWW\themes\admin\base.html";i:1575605567;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:36:"./themes/admin/task\task_config.html";i:1586620845;s:36:"E:\git\sanguo\themes\admin\base.html";i:1586619415;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -92,6 +92,7 @@
                         <th>可挖PIG</th>
                         <th>可挖DOGE/(%)</th>
                         <th>今日召唤状态</th>
+                        <th>是否积分商城</th>
                         <th>已放数量</th>
                         <th>最大库存</th>
                         <th>操作</th>
@@ -113,6 +114,8 @@
                         <td><?php echo $vo['pig']; ?></td>
                         <td><?php echo $vo['doge']; ?></td>
                         <td><?php echo !empty($vo['is_open'])?'已召唤':'待召唤'; ?></td>
+                        <td><?php echo !empty($vo['is_integral_goods'])?'是':'否'; ?></td>
+
                         <td><?php echo $vo['selled_stock']; ?></td>
                         <td><?php echo $vo['max_stock']; ?></td>
                         <td>
@@ -145,11 +148,7 @@
 
 
     <!--底部-->
-    <div class="layui-footer footer">
-        <div class="layui-main">
-            <p>源码来自倾城源码</p>
-        </div>
-    </div>
+
 </div>
 
 <script>

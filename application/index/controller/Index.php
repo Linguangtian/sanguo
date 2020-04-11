@@ -17,7 +17,8 @@ class Index extends IndexBase
     //首页
     public function index()
     {
-        $piglist = Db::name('task_config')->select();
+        $map=[];
+        $piglist = Db::name('task_config')->where('is_integral_goods != \'on\'')->select();
 
         $nowtime = date('H:i');
         $nowday = date('Y-m-d ');
@@ -319,5 +320,109 @@ class Index extends IndexBase
         }
 
     }
+
+
+    //积分商城
+    public function Integral_shop(){
+        $piglist = Db::name('task_config')->where('is_integral_goods','on')->select();
+
+        $nowtime = date('H:i');
+        $nowday = date('Y-m-d ');
+        $time = time();
+        foreach ($piglist as $key=>$val) {
+            $res =  Db::name('user_pigs')->where('pig_id', $val['id'])->select();
+
+            if(count($res)>0){
+
+                $piglist[$key]['game_status'] = 5;//已拥有
+            }else{
+                $piglist[$key]['game_status'] = 4;
+            }
+        }
+        $config=unserialize(Db::name('system')->where('name','site_config')->value('value'));
+        return view()->assign(['piglist'=>$piglist,'nowday'=>$nowday,'nowtime'=>$time,'config'=>$config]);
+
+    }
+
+    //积分购买
+    public function integral_buy(){
+        $data = $this->request->param();
+        //dump($data);
+        $pig_id = $data['id'];
+        $pigInfo =  Db::name('task_config')->where('id',$pig_id)->find();
+        $nowTime = date('H:i');
+        if ($nowTime<$pigInfo['start_time'] || $nowTime>$pigInfo['end_time'])
+        {
+            $this->error('不是兑换时间');
+        }
+        //是否实名通过
+        $authMap = [];
+        $authMap['uid'] = $this->user_id;
+        $authMap['status'] = 1;
+        if (!Db::name('identity_auth')->where($authMap)->find()) $this->error('请先实名');
+
+        if ($pigInfo['is_integral_goods'] !='on')
+        {
+            $this->error('非积分商城宠物');
+        }
+
+        $salf=round($pigInfo['integral_price']/2,2);
+
+
+            if( $this->user->pig <$salf  ){
+                $this->error('幸运币不足,兑换需'.$salf);
+            }
+
+            if( $this->user->share_integral <$salf  ){
+                $this->error('推广收益不足,兑换需'.$salf);
+            }
+
+
+            if($pigInfo['selled_stock']>=$pigInfo['max_stock']){
+                $this->error('库存不足');
+            }
+
+            $pig_price=rand($pigInfo['min_price'],$pigInfo['max_price']);
+            $saveDate = [];
+            $saveDate['uid'] = $this->user_id;
+            $saveDate['pig_id'] = $pigInfo['id'];
+            $saveDate['pig_name'] = $pigInfo['name'];
+            $saveDate['price'] = $pig_price;
+            $saveDate['contract_revenue'] = $pigInfo['contract_revenue'];
+            $saveDate['cycle'] = $pigInfo['cycle'];
+            $saveDate['doge'] = $pigInfo['doge'];
+            $saveDate['pig_no'] = create_trade_no();
+            $saveDate['status'] = 1;
+            $saveDate['create_time'] = time();
+            $saveDate['end_time'] = time()+$pigInfo['cycle']*24*3600;
+            $sell_id = Db::name('user_pigs')->insertGetId($saveDate);
+            $sellOrder = [];
+            $sellOrder['order_no'] = create_trade_no();
+            $sellOrder['uid'] = $this->user_id;
+            $sellOrder['pig_id'] = $pigInfo['id'];
+            $sellOrder['source_price'] = $pigInfo['max_price'];
+            $sellOrder['price'] = $pig_price;
+            $sellOrder['pig_name'] = $pigInfo['name'];
+            $sellOrder['create_time'] = time();
+            $sellOrder['sell_id'] = 0;
+            $order_id = Db::name('PigOrder')->insertGetId($sellOrder);
+            if ($sell_id && $order_id) {
+                //扣減库存
+                model('Pig')->where(['id'=>['eq',$pigInfo['id']], 'selled_stock'=>['lt', $pigInfo['max_stock']]])->setInc('selled_stock');
+                //更新用户猪对应的订单号
+                Db::name('user_pigs')->where('id',$sell_id)->update(['order_id'=>$order_id,'end_time'=>time()]);
+                //扣除eos
+                moneyLog($this->user_id,$this->user_id,'total_share_integral',-$salf,77,'兑换积分英雄订单：'. $sellOrder['order_no']);
+                moneyLog($this->user_id,$this->user_id,'pig',-$salf,77,'兑换积分英雄订单：'. $sellOrder['order_no']);
+                $this->success('兑换成功');
+            }else{
+                $this->error('失败');
+            }
+
+
+
+
+    }
+
 
 }

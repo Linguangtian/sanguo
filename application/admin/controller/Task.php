@@ -58,6 +58,10 @@ class Task extends AdminBase
           $taskInfo = Db::name('task_config')->where('id',$id)->find();
           if ($this->request->isPost()) {
               $data = $this->request->post();
+
+              if(!isset($data['is_integral_goods']))$data['is_integral_goods']=' ';
+
+
               $res = Db::name('task_config')->where('id',$data['id'])->update($data);
               //echo Db::name('task_config')->getLastSql();die;
               $res ? $this->success('修改成功','taskConfig') : $this->error('操作失败');

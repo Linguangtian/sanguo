@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:37:"./themes/admin/wealth\set_wealth.html";i:1586591610;s:36:"E:\git\sanguo\themes\admin\base.html";i:1578813413;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:37:"./themes/admin/wealth\set_wealth.html";i:1586622802;s:36:"E:\git\sanguo\themes\admin\base.html";i:1586619415;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -120,6 +120,7 @@
                                 <option value="share_integral">推广收益</option>
                                 <option value="doge">EOS币</option>
                                 <option value="user_total_money">总资产</option>
+                                <option value="pig">幸运币</option>
 
 
                             </select>
@@ -146,11 +147,7 @@
 
 
     <!--底部-->
-    <div class="layui-footer footer">
-        <div class="layui-main">
-            <p></p>
-        </div>
-    </div>
+
 </div>
 
 <script>

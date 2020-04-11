@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:34:"./themes/admin/task\task_edit.html";i:1551682237;s:42:"D:\phpstudy_pro\WWW\themes\admin\base.html";i:1575605567;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:34:"./themes/admin/task\task_edit.html";i:1586620707;s:36:"E:\git\sanguo\themes\admin\base.html";i:1586619415;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -192,6 +192,26 @@
                             <input type="text" name="max_stock" value="<?php echo $taskInfo['max_stock']; ?>" required lay-verify="required" placeholder="请输入最大库存" class="layui-input">
                         </div>
                     </div>
+
+
+                     <div class="layui-form-item">
+                        <label class="layui-form-label">是否积分商品</label>
+                        <div class="layui-input-block" style="width: 32%;">
+
+                            <input type="checkbox" name="is_integral_goods" lay-skin="switch"  lay-text="是|否" <?php if($taskInfo['is_integral_goods'] == 'on'): ?> checked <?php endif; ?>>
+                        </div>
+                    </div>
+
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">价值（幸运/推广币）</label>
+                        <div class="layui-input-block" style="width: 32%;">
+                            <input type="text" name="integral_price" value="<?php echo $taskInfo['integral_price']; ?>" required lay-verify="required" placeholder="价格" class="layui-input">
+                        </div>
+                    </div>
+
+
+
                     <input type="hidden" name="id" value="<?php echo $taskInfo['id']; ?>">
                     <div class="layui-form-item">
                         <div class="layui-input-block">
@@ -207,11 +227,7 @@
 
 
     <!--底部-->
-    <div class="layui-footer footer">
-        <div class="layui-main">
-            <p>源码来自倾城源码</p>
-        </div>
-    </div>
+
 </div>
 
 <script>

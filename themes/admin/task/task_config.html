@@ -29,6 +29,7 @@
                         <th>可挖PIG</th>
                         <th>可挖DOGE/(%)</th>
                         <th>今日召唤状态</th>
+                        <th>是否积分商城</th>
                         <th>已放数量</th>
                         <th>最大库存</th>
                         <th>操作</th>
@@ -50,6 +51,8 @@
                         <td>{$vo.pig}</td>
                         <td>{$vo.doge}</td>
                         <td>{$vo.is_open?'已召唤':'待召唤'}</td>
+                        <td>{$vo.is_integral_goods?'是':'否'}</td>
+
                         <td>{$vo.selled_stock}</td>
                         <td>{$vo.max_stock}</td>
                         <td>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:38:"./themes/admin/system\base_config.html";i:1586582742;s:36:"E:\git\sanguo\themes\admin\base.html";i:1578813413;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:38:"./themes/admin/system\base_config.html";i:1586582742;s:36:"E:\git\sanguo\themes\admin\base.html";i:1586619415;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -196,11 +196,7 @@
 
 
     <!--底部-->
-    <div class="layui-footer footer">
-        <div class="layui-main">
-            <p></p>
-        </div>
-    </div>
+
 </div>
 
 <script>
