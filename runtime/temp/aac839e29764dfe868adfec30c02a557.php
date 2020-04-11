@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:32:"./themes/hdindex/user\index.html";i:1578813387;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:32:"./themes/hdindex/user\index.html";i:1586589121;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,12 +49,12 @@
     </div>
     <div class="account_info">
         <ul>
-            <li><a href="<?php echo url('pig_currency'); ?>"><h3><?php echo $user['pig']; ?></h3><span>WIA/華高鏈</span></a></li>
-            <li><a href="<?php echo url('doge_money'); ?>"><h3><?php echo $user['doge']; ?></h3><span>DOGE/王者币</span></a></li>
+            <li><a href="<?php echo url('pig_currency'); ?>"><h3><?php echo $user['pig']; ?></h3><span>幸运</span></a></li>
+            <li><a href="<?php echo url('doge_money'); ?>"><h3><?php echo $user['doge']; ?></h3><span>EOS</span></a></li>
             <li><a href="<?php echo url('blessings_log'); ?>"><h3><?php echo $user['pay_points']; ?></h3><span>粮草</span></a></li>
-            <li><a href="<?php echo url('profit_log'); ?>"><h3><?php echo $contract_revenue; ?></h3><span>纍計收益</span></a></li>
-            <li><a href="javascript:;"><h3><?php echo $user_pigs; ?></h3><span>總資產</span></a></li>
-            <li><a href="<?php echo url('profit'); ?>"><h3><?php echo $user['share_integral']; ?></h3><span>推薦收益</span></a></li>
+            <li><a href="<?php echo url('profit_log'); ?>"><h3><?php echo $contract_revenue; ?></h3><span>累计收益</span></a></li>
+            <li><a href="javascript:;"><h3><?php echo $user_pigs; ?></h3><span>总资产</span></a></li>
+            <li><a href="<?php echo url('profit'); ?>"><h3><?php echo $user['share_integral']; ?></h3><span>推广收益</span></a></li>
         </ul>
     </div>
 </div>
@@ -63,19 +63,19 @@
     <div class="item">
         <a href="<?php echo url('adopt_log'); ?>">
             <i class="iconfont icon-mairu"></i>
-            <h3>召唤記錄</h3>
+            <h3>召唤记录</h3>
         </a>
     </div>
     <div class="item">
         <a href="<?php echo url('transfer_log'); ?>">
             <i class="iconfont icon-maichu"></i>
-            <h3>轉讓記錄</h3>
+            <h3>转让记录</h3>
         </a>
     </div>
     <div class="item">
         <a href="<?php echo url('reservation_log'); ?>">
             <i class="iconfont icon-yiwancheng-"></i>
-            <h3>預約記錄</h3>
+            <h3>预约记录</h3>
         </a>
     </div>
 </div>
@@ -90,25 +90,25 @@
     <div class="item">
         <a href="javascript:checkAuth();">
             <i class="iconfont icon-z045 c2"></i>
-            <h3>實名認證</h3>
+            <h3>实名认证</h3>
         </a>
     </div>
     <div class="item">
         <a href="<?php echo url('bankcard'); ?>">
             <i class="iconfont icon-qia c3"></i>
-            <h3>我的錢包</h3>
+            <h3>我的银行卡</h3>
         </a>
     </div>
     <div class="item">
         <a href="<?php echo url('team'); ?>">
             <i class="iconfont icon-tuandui c4"></i>
-            <h3>我的團隊</h3>
+            <h3>我的团队</h3>
         </a>
     </div>
     <div class="item">
         <a href="javascript:checkAuthToInvit();">
             <i class="iconfont icon-erweima c3"></i>
-            <h3>邀請好友</h3>
+            <h3>邀请好友</h3>
         </a>
     </div>
     <div class="item">
@@ -117,12 +117,12 @@
             <h3>系統消息</h3>
         </a>
     </div>
-	
-	
+
+
 </div>
 
 <div style="text-align:center;">
-	<a href="https://www.huzhan.com/ishop21339/" target="_blank"><span style="font-size:16px;color:#FFFFFF;"></span></a> 
+	<a href="https://www.huzhan.com/ishop21339/" target="_blank"><span style="font-size:16px;color:#FFFFFF;"></span></a>
 </div>
 
 <style>

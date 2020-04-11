@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:36:"./themes/hdindex/user\adopt_log.html";i:1575617302;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:36:"./themes/hdindex/user\adopt_log.html";i:1586590501;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cmn-Hans">
   <head>
@@ -78,7 +78,7 @@
                   <span class="fw_b">武将编号:<?php echo $vl['order_no']; ?></span> <span class="color_r">区块写入中</span>
                 </div>
                 <div class="content fs26 color_3">
-                  <div>区块猪:<?php echo $vl['pig_info']['name']; ?></div>
+                  <div>英雄:<?php echo $vl['pig_info']['name']; ?></div>
                   <div>价值：<span class="color_r fw_b"><?php echo $vl['price']; ?></span>≈<?php echo $vl['price']; ?>PIG</div>
                   <div>智能合约收益：<span class="color_r fw_b"><?php echo $vl['pig_info']['cycle']; ?>天/<?php echo $vl['pig_info']['contract_revenue']; ?>%</span></div>
                   <div>获得收益：<span class="color_r fw_b">201.52</span></div>
@@ -102,7 +102,7 @@
                   <span class="fw_b">武将编号:<?php echo $vl['order_no']; ?></span> <span class="color_r">已完成(收益中)</span>
                 </div>
                 <div class="content fs26 color_3">
-                  <div>区块猪:<?php echo $vl['pig_info']['name']; ?></div>
+                  <div>英雄:<?php echo $vl['pig_info']['name']; ?></div>
                   <div>价值：<span class="color_r fw_b"><?php echo $vl['price']; ?></span>≈<?php echo $vl['price']; ?>PIG</div>
                   <div>智能合约收益：<span class="color_r fw_b"><?php echo $vl['pig_info']['cycle']; ?>天/<?php echo $vl['pig_info']['contract_revenue']; ?>%</span></div>
                   <div>获得收益：<span class="color_r fw_b"><?php echo $vl['user_pig']['total_revenue']; ?></span></div>

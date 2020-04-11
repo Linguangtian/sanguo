@@ -68,6 +68,7 @@ class Wealth extends AdminBase
         $id = $this->request->param('id');
         $user = Db::name('user')->where('id',$id)->field('id,mobile')->find();
         if($this->request->isPost()){
+
             $data=$this->request->post();
             //dump($data);die;
             //$uid=Db::name('user')->where('mobile',$data['username'])->value('id');

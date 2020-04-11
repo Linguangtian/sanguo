@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:37:"./themes/admin/wealth\set_wealth.html";i:1575709269;s:49:"C:\Users\87031\Desktop\zxc\themes\admin\base.html";i:1575605567;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:37:"./themes/admin/wealth\set_wealth.html";i:1586591610;s:36:"E:\git\sanguo\themes\admin\base.html";i:1578813413;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -118,6 +118,8 @@
                             <select name="money_type" lay-verify="required">
                                 <option value="pay_points">粮草</option>
                                 <option value="share_integral">推广收益</option>
+                                <option value="doge">EOS币</option>
+                                <option value="user_total_money">总资产</option>
 
 
                             </select>
@@ -146,7 +148,7 @@
     <!--底部-->
     <div class="layui-footer footer">
         <div class="layui-main">
-            <p>源码来自倾城源码</p>
+            <p></p>
         </div>
     </div>
 </div>

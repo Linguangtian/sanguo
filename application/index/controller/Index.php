@@ -18,6 +18,7 @@ class Index extends IndexBase
     public function index()
     {
         $piglist = Db::name('task_config')->select();
+
         $nowtime = date('H:i');
         $nowday = date('Y-m-d ');
         $time = time();
@@ -46,6 +47,12 @@ class Index extends IndexBase
             //echo '00';
                 $piglist[$key]['game_status']=0;
             }
+          $res =  Db::name('user_pigs')->where('pig_id', $val['id'])->select();
+            if(count($res)>0){
+                $piglist[$key]['game_status'] = 5;//已拥有
+            }
+
+
         }
         $config=unserialize(Db::name('system')->where('name','site_config')->value('value'));
         //dump($piglist);die;
@@ -198,7 +205,6 @@ class Index extends IndexBase
             $insertData['user_sort'] = $this->user['trade_order'];
             $insertData['credit_score'] = $this->user['credit_score'];
             $insertData['buy_type'] = 1;
-
             $insertData['pay_points'] = $pigInfo['qiang_points'];
             $re = Db::name('yuyue')->insert($insertData);
             if ($re) {
@@ -210,9 +216,72 @@ class Index extends IndexBase
                 $this->error('抢购失败');
             }
         }else if($this->isYuyue($pig_id)){
+            $baseConfig = unserialize(Db::name('system')->where('name','base_config')->value('value'));
+            $uid = $this->user_id;
+            $zMap = [];
+            $zMap['uid'] = $uid;
+            $zMap['status'] = 1;
+            $user_pigs = Db::name('user_pigs')->where($zMap)->sum('price');  //总资产
+            $user_pigs = round($user_pigs,2);
+            $user_pigs = $this->user->user_total_money ? round($this->user->user_total_money,2) + $user_pigs : $user_pigs;
+
+            if( $baseConfig['limit_total_sell_num']>0 && $this->user->share_integral <$baseConfig['limit_total_sell_num']  ){
+                $this->error('抢购失败,推广收益未达到'.$baseConfig['limit_total_sell_num']);
+            }
+            if( $baseConfig['limit_total_money']>0 && $user_pigs <$baseConfig['limit_total_money']  ){
+                        $this->error('抢购失败,总资产未到达标准'.$baseConfig['limit_total_money']);
+            }
+
+            if( $this->user->doge<=0 &&  $this->user->doge<$pigInfo['max_price'] ){
+                $this->error('EOS币不足');
+            }
+            if($pigInfo['selled_stock']>=$pigInfo['max_stock']){
+                $this->error('库存不足');
+            }
+
+
+            $pig_price=rand($pigInfo['min_price'],$pigInfo['max_price']);
+            $saveDate = [];
+            $saveDate['uid'] = $this->user_id;
+            $saveDate['pig_id'] = $pigInfo['id'];
+            $saveDate['pig_name'] = $pigInfo['name'];
+            $saveDate['price'] = $pig_price;
+            $saveDate['contract_revenue'] = $pigInfo['contract_revenue'];
+            $saveDate['cycle'] = $pigInfo['cycle'];
+            $saveDate['doge'] = $pigInfo['doge'];
+            $saveDate['pig_no'] = create_trade_no();
+            $saveDate['status'] = 1;
+            $saveDate['create_time'] = time();
+            $saveDate['end_time'] = time()+$pigInfo['cycle']*24*3600;
+            $sell_id = Db::name('user_pigs')->insertGetId($saveDate);
+            $sellOrder = [];
+            $sellOrder['order_no'] = create_trade_no();
+            $sellOrder['uid'] = $this->user_id;
+            $sellOrder['pig_id'] = $pigInfo['id'];
+            $sellOrder['source_price'] = $pigInfo['max_price'];
+            $sellOrder['price'] = $pig_price;
+            $sellOrder['pig_name'] = $pigInfo['name'];
+            $sellOrder['create_time'] = time();
+            $sellOrder['sell_id'] = 0;
+            $order_id = Db::name('PigOrder')->insertGetId($sellOrder);
+            if ($sell_id && $order_id) {
+                //扣減库存
+                model('Pig')->where(['id'=>['eq',$pigInfo['id']], 'selled_stock'=>['lt', $pigInfo['max_stock']]])->setInc('selled_stock');
+                //更新用户猪对应的订单号
+                Db::name('user_pigs')->where('id',$sell_id)->update(['order_id'=>$order_id,'end_time'=>time()]);
+                //扣除eos
+                moneyLog($this->user_id,$this->user_id,'doge',-$pig_price,77,'兑换英雄订单：'. $sellOrder['order_no']);
+                $this->success('兑换成功');
+            }
+
+        /*    var_dump($this->user);exit;*/
+            $map = [];
+            $map['id'] = $pig_id;
+
+            DoeLog($this->user_id,0,'pay_points',-$pigInfo['qiang_points'],3,'抢购武将');
             $map = [];
             $map['uid'] = $this->user_id;
-            $map['pig_id'] = $pig_id;
+
             $map['status'] = 0;
             $insertData['buy_type'] = ['<>', 1];
             //已经预约的，修改bug_type为2
@@ -230,7 +299,6 @@ class Index extends IndexBase
         $endtime = $this->request->param('endtime');
         $uid = $this->user_id;
         $nowTime = date('H:i:s',time()-180);
-
         $is_open = Cache::get('is_open'.$id);
         if (!$is_open && $nowTime<=$endtime) {
             return json(['code'=>0,'msg'=>'未开奖']);

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:33:"./themes/hdindex/index\index.html";i:1575709380;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:33:"./themes/hdindex/index\index.html";i:1586591340;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,11 +13,14 @@
         }
         html {font-size: 6.25vw !important;}
         .footer, .top_fixed { -webkit-transform: translateZ(0);}
+        .b-grey{
+            background: #999!important;
+        }
     </style>
     <title><?php echo (isset($config['site_title']) && ($config['site_title'] !== '')?$config['site_title']:'亞太區塊龜'); ?></title>
-    <link rel="stylesheet" href="https://block-dog.oss-cn-beijing.aliyuncs.com/template/mobile/block/static/css/style.css?v13">
-    <link rel="stylesheet" href="https://block-dog.oss-cn-beijing.aliyuncs.com/template/mobile/block/static/css/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="https://block-dog.oss-cn-beijing.aliyuncs.com/template/mobile/block/static/css/iconfont.css?v=1"/>
+    <link rel="stylesheet" href="/public/static/hdindex/css/style.css">
+    <link rel="stylesheet" href="/public/static/hdindex/css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/public/static/hdindex/css/iconfont.css"/>
     <link rel="stylesheet" href="/public/static/hdindex/css/all.css"/>
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
 </head>
@@ -40,17 +43,21 @@
 
     <?php if(is_array($piglist) || $piglist instanceof \think\Collection || $piglist instanceof \think\Paginator): $i = 0; $__LIST__ = $piglist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$pig): $mod = ($i % 2 );++$i;?>
     <div class="item" id="pig_level_<?php echo $pig['id']; ?>" data-actid="<?php echo $pig['id']; ?>"  data-endtime="<?php echo $pig['end_time']; ?>"  data-etime='<?php echo $nowday; ?><?php echo $pig['start_time']; ?>'>
-        <img src="<?php echo $pig['img']; ?>"  height="4rem" >
-        <div class="info"><h3><?php echo $pig['name']; ?><span style="margin-left:10px; font-size:0.5rem;color:#C4C4C4;">级别：<b  <?php if($pig['level'] == '国王'): ?> style="color:#d6c43b" <?php endif; ?>><?php echo $pig['level']; ?></b></span></h3>
-            <p>價值：<b><?php echo $pig['min_price']; ?>-<?php echo $pig['max_price']; ?></b></p>
-            <p>召唤時間：<b><?php echo $pig['start_time']; ?>-<?php echo $pig['end_time']; ?></b></p>
-            <p>預約/即抢召唤粮草：<b><?php echo $pig['pay_points']; ?>/<?php echo $pig['qiang_points']; ?></b></p>
-            <p>智能合約收益：<b><?php echo $pig['cycle']; ?>天/<?php echo number_format($pig['contract_revenue'],0); ?>%</b></p>
-            <p>可挖WIA：<b><?php echo $pig['pig']; ?></b>枚</p>
-            <p>可挖DOGE：收益<b><?php echo $pig['doge']; ?></b>%</p>
+        <div class="item-info">
+            <div class="pig-img"> <img src="<?php echo $pig['img']; ?>"  ></div>
+            <div class="info">
+                <h3><?php echo $pig['name']; ?><span style="margin-left:10px; font-size:0.5rem;color:#C4C4C4;">级别：<b  <?php if($pig['level'] == '国王'): ?> style="color:#d6c43b" <?php endif; ?>><?php echo $pig['level']; ?></b></span></h3>
+                <p>價值：<b><?php echo $pig['min_price']; ?>-<?php echo $pig['max_price']; ?></b></p>
+                <p>召唤時間：<b><?php echo $pig['start_time']; ?>-<?php echo $pig['end_time']; ?></b></p>
+                <p>預約/即抢召唤粮草：<b><?php echo $pig['pay_points']; ?>/<?php echo $pig['qiang_points']; ?></b></p>
+                <p>智能合約收益：<b><?php echo $pig['cycle']; ?>天/<?php echo number_format($pig['contract_revenue'],0); ?>%</b></p>
+                <p>可挖WIA：<b><?php echo $pig['pig']; ?></b>枚</p>
+                <p>可挖EOS：收益<b><?php echo $pig['doge']; ?></b>%</p>
+            </div>
         </div>
+        <div style="clear:both"></div>
         <div class="btn_box btns">
-            <?php switch($pig['game_status']): case "0": ?> <a href="javascript:;" class="btn-buy-no buttoning level_btn fanzhi">繁殖中</a><?php break; case "1": ?> <a href="javascript:;" class="btn-apply buttoning" data-id="<?php echo $pig['id']; ?>">预约</a><?php break; case "2": ?> <a href="javascript:;" class="btn-buy-w buttoning">待召唤</a><?php break; case "3": ?> <a href="javascript:;" class="btn-buy-w buttoning">公布中</a><?php break; case "4": ?> <a href="javascript:;" class="btn-buy buttoning level_btn kaijiang" data-id="<?php echo $pig['id']; ?>" data-endtime="<?php echo $pig['end_time']; ?>">召唤</a><?php break; endswitch; ?>
+            <?php switch($pig['game_status']): case "0": ?> <a href="javascript:;" class="btn-buy-no buttoning level_btn fanzhi">繁殖中</a><?php break; case "1": ?> <a href="javascript:;" class="btn-apply buttoning" data-id="<?php echo $pig['id']; ?>">预约</a><?php break; case "2": ?> <a href="javascript:;" style=" touch-action: none;" class="btn-buy-w buttoning">待召唤</a><?php break; case "3": ?> <a href="javascript:;" class="btn-buy-w buttoning">公布中</a><?php break; case "4": ?> <a href="javascript:;" class="btn-buy buttoning level_btn kaijiang" data-id="<?php echo $pig['id']; ?>" data-endtime="<?php echo $pig['end_time']; ?>">召唤</a><?php break; case "5": ?> <a  class="b-grey buttoning level_btn " >已拥有</a><?php break; endswitch; ?>
         </div>
     </div>
     <?php endforeach; endif; else: echo "" ;endif; ?>
@@ -265,6 +272,8 @@
         $(document).on('click','.kaijiang',function(){
             var id =  $(this).data('id');
             var endtime =  $(this).data('endtime');
+            var but =  $(this);
+
 
             $('.model').show();
             //2019-3-12-----------
@@ -277,65 +286,20 @@
                 //已经返回结果一次结果
                 var _data = data;
                 console.log(_data);
+
+                $('.model').hide();
+                $('.loading').hide();
+
+                layer.open({
+                    content:_data.msg
+                    ,skin: 'msg'
+                    ,time: 2 //2秒后自动关闭
+                });
                 if(_data.code == 1){
                     //alert('进入成功');
-                    var _aw_time = $('input[name="game_openaward"]').val();
-
-                    window.setTimeout(function(){
-                        //查询次数
-                        var sel_count =  10000;
-                        var _interval = window.setInterval(function(){
-                            console.log(sel_count);
-                            if(sel_count > 0){
-                                $.post('/index/Index/checkFlushOpen',{id:id,endtime:endtime},function(data){
-                                    if(data.code == 1 || data.code == 2){
-                                        window.clearInterval(_interval);
-                                        if(data.code == 1){
-                                            $('.loading').hide();
-                                            $('.succeed').show();
-                                            var success = document.getElementById('success');
-                                            $('#pig_level_'+ id +' .btns').html('<a class="btn-buy-no buttoning level_btn fanzhi">繁殖中</a>')
-                                            success.play();//audio.play();// 这个就是播放
-                                        }else{
-                                            $('.loading').hide();
-                                            $('.fail').show();
-                                            $('#pig_level_'+ id +' .btns').html('<a class="btn-buy-no buttoning level_btn fanzhi">繁殖中</a>')
-                                            var error = document.getElementById('error');
-                                            error.play();//audio.play();// 这个就是播放
-                                        }
-                                    }else{
-                                        sel_count --;
-                                    }
-                                })
-                            }else{
-                                window.clearInterval(_interval);
-                                $('.model').hide();
-                                $('.loading').hide();
-                                $('.fail').show();
-                                var error = document.getElementById('error');
-                                error.play();//audio.play();// 这个就是播放
-                                layer.open({
-                                    content: '网络异常'
-                                    ,time: 2
-                                    ,skin: 'msg'
-                                });
-
-                            }
-
-                        },10000)
-                    },_aw_time);
-                }else{
-                    $('.model').hide();
-                    $('.loading').hide();
-                    // $('.fail').show();
-                    // var error = document.getElementById('error');
-                    // error.play();//audio.play();// 这个就是播放
-
-                    layer.open({
-                        content:_data.msg
-                        ,skin: 'msg'
-                        ,time: 2 //2秒后自动关闭
-                    });
+                    $(but).removeClass('kaijiang');
+                    $(but).addClass('b-grey');
+                    $(but).html('已召唤');
                 }
                 //第二次访问查看是否有中奖
             });

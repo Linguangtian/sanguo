@@ -418,6 +418,7 @@
 				// which causes all touch events to be ignored. As this block only applies to iOS, and iOS identifiers are always long,
 				// random integers, it's safe to to continue if the identifier is 0 here.
 				if (touch.identifier && touch.identifier === this.lastTouchIdentifier) {
+                    window.addEventListener('touchmove', func, { passive: false });
 					event.preventDefault();
 					return false;
 				}

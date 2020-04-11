@@ -96,6 +96,29 @@
                     </div>
 
 
+
+                    <fieldset class="layui-elem-field layui-field-title" style="margin-top: 50px;">
+                        <legend>兑换条件</legend>
+                    </fieldset>
+
+                    <div class="layui-form-item">
+                        <div class="layui-inline">
+                            <label class="layui-form-label">推广收益到达</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="limit_total_sell_num" placeholder="推广收益到数" autocomplete="off" class="layui-input"  value="{$base_config['limit_total_sell_num']|default=''}">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <div class="layui-inline">
+                            <label class="layui-form-label">总资产到达</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="limit_total_money" placeholder="总资产到达数" autocomplete="off" class="layui-input"  value="{$base_config['limit_total_money']|default=''}">
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="layui-form-item">
                         <div class="layui-input-block">
                             <button class="layui-btn" lay-submit lay-filter="*">提交</button>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:37:"./themes/hdindex/user\doge_money.html";i:1551682237;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:37:"./themes/hdindex/user\doge_money.html";i:1586579245;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cmn-Hans">
   <head>
@@ -23,7 +23,7 @@
         /* 语言选择框颜色 */
         .goog-te-combo {background-color:#848CB5; border-radius:8px;}
  </style>
-    <title>DOGE币</title>
+    <title>EOS币</title>
   </head>
   <body>
    <div id="wrap" style="z-index: 1000000;
@@ -39,7 +39,7 @@
     <div class="header-left">
         <a href="javascript:history.go(-1)" class="left-arrow"></a>
     </div>
-    <div class="header-title">DOGE币</div>
+    <div class="header-title">EOS币</div>
     <div class="header-right">
         <a href="#"></a>
     </div>

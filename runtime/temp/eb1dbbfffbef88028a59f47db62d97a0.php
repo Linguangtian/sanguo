@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:38:"./themes/admin/system\base_config.html";i:1575709269;s:37:"F:\www3\qukuai\themes\admin\base.html";i:1578813413;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:38:"./themes/admin/system\base_config.html";i:1586582742;s:36:"E:\git\sanguo\themes\admin\base.html";i:1578813413;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -158,6 +158,29 @@
                         </div>
                     </div>
 
+
+
+                    <fieldset class="layui-elem-field layui-field-title" style="margin-top: 50px;">
+                        <legend>兑换条件</legend>
+                    </fieldset>
+
+                    <div class="layui-form-item">
+                        <div class="layui-inline">
+                            <label class="layui-form-label">推广收益到达</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="limit_total_sell_num" placeholder="推广收益到数" autocomplete="off" class="layui-input"  value="<?php echo (isset($base_config['limit_total_sell_num']) && ($base_config['limit_total_sell_num'] !== '')?$base_config['limit_total_sell_num']:''); ?>">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <div class="layui-inline">
+                            <label class="layui-form-label">总资产到达</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="limit_total_money" placeholder="总资产到达数" autocomplete="off" class="layui-input"  value="<?php echo (isset($base_config['limit_total_money']) && ($base_config['limit_total_money'] !== '')?$base_config['limit_total_money']:''); ?>">
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="layui-form-item">
                         <div class="layui-input-block">

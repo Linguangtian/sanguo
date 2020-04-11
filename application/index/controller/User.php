@@ -24,6 +24,9 @@ class User extends IndexBase
         $zMap['uid'] = $uid;
         $zMap['status'] = 1;
         $user_pigs = Db::name('user_pigs')->where($zMap)->sum('price');
+        $user_pigs = round($user_pigs,2);
+        $user_pigs = $this->user->user_total_money ? round($this->user->user_total_money,2) + $user_pigs : $user_pigs;
+
         //合约收益
         $map = [];
         $map['uid'] = $uid;
