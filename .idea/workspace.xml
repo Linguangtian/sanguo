@@ -6,8 +6,58 @@
       <change beforePath="$PROJECT_DIR$/application/common/controller/IndexBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common/controller/IndexBase.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/index/controller/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/Service.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Service.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hdindex/Login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hdindex/Login/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/hdindex/assets/css/all_black.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/hdindex/assets/css/all_black.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/1a/767e778ad49757770f14beee31e186.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201912/06.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201912/07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/202001/12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/202004/11.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/other.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/084b8ca7357f6e473f10343ab3ae315c.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/088211330f43c4c1b036178ec2f70938.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/0c6a17896f5eb6f1a2238ac6ca43d09c.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/11b9177e50b27a7253f2564420fef350.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/128ba074f4fb4b3233ab0dc1907ac918.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/128ba074f4fb4b3233ab0dc1907ac918.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/17d39a5b6f68108e248c5bbd0916b7d7.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/1dd62179539ec7aa6e698bcf36b35ec0.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/20fc6e9ef0bd787448882ad0f303cb5a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/267d9489bbf57bb1cadcfff2d08822b5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/2c4125f0f270f56e9ef740c6570d72ed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/3b6deaee30cfb732348cb29713c0b054.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/3dec04ad79813997f1f0d7fbcc440df8.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/3dec04ad79813997f1f0d7fbcc440df8.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/5440a0b93738f1bdeb33a348de0aba83.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/583097b62f135f44a4537a8b8f4cb2b5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/5cdc44059f288163a7cd8969b65f3349.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/5d8a3cfe683bc54fdfeda0d836d589c4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/609041ad81354a8ad0e87d44f7981c11.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/62fe8df34b16be61324e5699b3a1bafa.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/64f793e7f937e08cc9ef9fcf2c262d30.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/6639d80507bb96a5533f51638482a502.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/6cd9d831ad68cd2a8681b24537a2490b.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/8014db186dac29f8a604e283beb08c7a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/80e9a69dd485e93b38051b77fc931070.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/8bc25ada7bb4c26fdffae64c2abc4595.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/a726607a0d4353f8ee0c3787373eee7a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/aac839e29764dfe868adfec30c02a557.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/aac839e29764dfe868adfec30c02a557.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/b5fc5f7560c149c4f9f347cc2a3cfeb0.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/ba354521890d03384fce4689cec5d705.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/c08b6674601e7eb802d931e8bf22a240.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/c3f0d21c6639126a56fdcf8eca72b05a.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/c3f0d21c6639126a56fdcf8eca72b05a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/c6e7e7fa8c3c482048dc7151a1e6e3a8.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/c8d9788862db8cd98d97d5c98427fa30.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/d2add04f7dd6b2d5f82197cd62c927f6.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/d2c85e1cb3e78526e9df7af18dec29c2.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/d2c85e1cb3e78526e9df7af18dec29c2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/d4bbb4ea73661ad4fc7f60ae0036047b.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/de2d938ed2a3ebf7263d909905a86a05.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/e10ba4dbd6d28e63f797febd6bbc2fb9.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/e6796b1bba7a59e2c16b6cba37398748.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/eb1dbbfffbef88028a59f47db62d97a0.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/f61070d6bdc5d205e7eeec44f6c7e2e2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/f9a78dd90959ee24c2600af213078885.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/fb4f57369a58809f950180b7d6aac3e1.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/fb4f57369a58809f950180b7d6aac3e1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hdindex/Login/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hdindex/Login/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hdindex/service/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hdindex/service/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,70 +69,147 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/thinkphp/composer.json</pharConfigPath>
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/themes/hdindex/Index/index.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="286">
+                    <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+                    <folding>
+                      <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      <element signature="n#style#0;n#span#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      <element signature="n#style#0;n#b#0;n#span#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      <element signature="n#style#0;n#a#2;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      <element signature="n#style#0;n#a#0;n#span#1;n#div#1;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      <element signature="e#10637#11590#0" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="iconfont.css" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/public/static/hdindex/css/iconfont.css">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="302">
+                    <caret line="40" column="19" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="19" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Response.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Response.php">
+      <file leaf-file-name="all_black.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/static/hdindex/assets/css/all_black.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+            <state relative-caret-position="549">
+              <caret line="1336" column="13" selection-start-line="1336" selection-start-column="13" selection-end-line="1336" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/hdindex/Login/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexBase.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/common/controller/IndexBase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/hdindex/service/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="85" column="30" lean-forward="true" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="indexg.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/indexg.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="router.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/router.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="web.config" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web.config">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="88">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/.htaccess">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.htaccess">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Service.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Service.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/index/controller/Service.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="286">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/index/controller/Login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="e#186#207#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/hdindex/Login/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="120" column="36" selection-start-line="120" selection-start-column="36" selection-end-line="120" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -91,23 +218,13 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>piglist</find>
-      <find>moneyLog</find>
-      <find>root</find>
-      <find>bottom-tabbar</find>
-      <find>ds-in-bl</find>
-      <find>css</find>
-      <find>.classreturn</find>
-      <find>content</find>
-      <find>.css</find>
-      <find />
       <find>{if</find>
       <find>源码来自倾城源码</find>
-      <find />
+      <find>layui-footer footer</find>
       <find>layui-unselect</find>
       <find>注册是否需要设置交易密码</find>
       <find>最高价格</find>
-      <find />
+      <find>&lt;div class=&quot;layui-input-block&quot;&gt;</find>
       <find>lay-skin=&quot;switch&quot;</find>
       <find>今日召唤状态</find>
       <find>where</find>
@@ -121,11 +238,23 @@
       <find>model</find>
       <find>公布中</find>
       <find>hdindex</find>
+      <find>https://block-dog.oss-cn-beijing.aliyuncs.com/template/mobile/block/static/css/style.css?v=1.33</find>
+      <find>https://block-dog.oss-cn-beijing.aliyuncs.com/template/mobile/block/static/css/style.css</find>
+      <find>https://block-dog.oss-cn-beijing.aliyuncs.com/template/mobile/block/static/css/iconfont.css</find>
+      <find>margin: 0.466667rem 0;</find>
+      <find>icon-tuandui</find>
+      <find>积分商城</find>
+      <find>.login .top</find>
+      <find>icon-iconfontmark</find>
+      <find>.login .weui-cell</find>
+      <find>.login .Box</find>
     </findStrings>
     <replaceStrings>
       <replace>EOS</replace>
       <replace>宠物</replace>
       <replace>英雄</replace>
+      <replace>/public/static/hdindex/css/style.css</replace>
+      <replace>/public/static/hdindex/css/animate.min.css</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\git\sanguo\application\index</dir>
@@ -150,7 +279,6 @@
         <option value="$PROJECT_DIR$/application/admin/controller/Wealth.php" />
         <option value="$PROJECT_DIR$/themes/hdindex/Index/index.html" />
         <option value="$PROJECT_DIR$/application/index/controller/User.php" />
-        <option value="$PROJECT_DIR$/themes/hdindex/service/index.html" />
         <option value="$PROJECT_DIR$/themes/index/Index/index.html" />
         <option value="$PROJECT_DIR$/application/admin/controller/Task.php" />
         <option value="$PROJECT_DIR$/themes/admin/task/task_config.html" />
@@ -158,12 +286,19 @@
         <option value="$PROJECT_DIR$/themes/admin/task/task_edit.html" />
         <option value="$PROJECT_DIR$/application/index/controller/Index.php" />
         <option value="$PROJECT_DIR$/themes/hdindex/Index/Integral_shop.html" />
-        <option value="$PROJECT_DIR$/application/common/controller/IndexBase.php" />
         <option value="$PROJECT_DIR$/thinkphp/library/think/Controller.php" />
-        <option value="$PROJECT_DIR$/application/index/controller/Login.php" />
         <option value="$PROJECT_DIR$/themes/hdindex/Login/index.html" />
         <option value="$PROJECT_DIR$/application/config.php" />
         <option value="$PROJECT_DIR$/application/index/controller/Service.php" />
+        <option value="$PROJECT_DIR$/public/static/hdindex/css/iconfont.css" />
+        <option value="$PROJECT_DIR$/public/static/Index/assets/css_b/all.css" />
+        <option value="$PROJECT_DIR$/public/static/Index/assets/css/all.css" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/Login.php" />
+        <option value="$PROJECT_DIR$/application/common/controller/IndexBase.php" />
+        <option value="$PROJECT_DIR$/themes/hdindex/service/index.html" />
+        <option value="$PROJECT_DIR$/themes/hdindex/Login/register.html" />
+        <option value="$PROJECT_DIR$/public/static/hdindex/assets/css/all_black.css" />
       </list>
     </option>
   </component>
@@ -176,9 +311,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="150" />
-    <option name="y" value="4" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-44" />
+    <option name="y" value="96" />
     <option name="width" value="1281" />
     <option name="height" value="917" />
   </component>
@@ -219,7 +354,20 @@
             <path>
               <item name="sanguo" type="b2602c69:ProjectViewProjectNode" />
               <item name="sanguo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="thinkphp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sanguo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sanguo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="hdindex" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sanguo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sanguo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="hdindex" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Login" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -263,27 +411,28 @@
       <workItem from="1586576531374" duration="13726000" />
       <workItem from="1586613761030" duration="9624000" />
       <workItem from="1586661110263" duration="1535000" />
-      <workItem from="1586673956168" duration="3220000" />
+      <workItem from="1586673956168" duration="6640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28105000" />
+    <option name="totallyTimeSpent" value="31525000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="289" y="11" width="1281" height="917" extended-state="0" />
+    <frame x="-44" y="96" width="1281" height="917" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21264823" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21264823" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -292,7 +441,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,50 +461,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/hdindex/Index/Integral_shop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2508">
-          <caret line="114" column="52" selection-start-line="114" selection-start-column="52" selection-end-line="114" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/hdindex/User/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="58" column="6" lean-forward="true" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/admin/wealth/set_wealth.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4972">
-          <caret line="234" column="83" selection-start-line="234" selection-start-column="83" selection-end-line="234" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/hdindex/Index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="58" column="41" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/hdindex/User/adopt_log.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2134">
@@ -534,20 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/hdindex/service/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="166" column="5" lean-forward="true" selection-start-line="166" selection-start-column="5" selection-end-line="166" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/hdindex/Index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1791">
-          <caret line="311" column="11" selection-start-line="277" selection-start-column="5" selection-end-line="311" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/admin/wealth/set_wealth.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1914">
@@ -591,67 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/common/controller/IndexBase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="45" column="68" lean-forward="true" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
-          <folding>
-            <element signature="e#3195#4989#0#PHP" />
-            <element signature="e#3231#4614#0#PHP" />
-            <element signature="e#3435#3529#0#PHP" />
-            <element signature="e#3542#3639#0#PHP" />
-            <element signature="e#3891#3981#0#PHP" />
-            <element signature="e#4182#4604#0#PHP" />
-            <element signature="e#4547#4604#0#PHP" />
-            <element signature="e#5006#6121#0#PHP" />
-            <element signature="e#5054#6085#0#PHP" />
-            <element signature="e#5340#5405#0#PHP" />
-            <element signature="e#5722#5846#0#PHP" />
-            <element signature="e#5934#6075#0#PHP" />
-            <element signature="e#6127#6233#0#PHP" />
-            <element signature="e#6254#6455#0#PHP" />
-            <element signature="e#6355#6428#0#PHP" />
-            <element signature="e#6475#7730#0#PHP" />
-            <element signature="e#6697#6800#0#PHP" />
-            <element signature="e#7169#7722#0#PHP" />
-            <element signature="e#7451#7619#0#PHP" />
-            <element signature="e#7552#7619#0#PHP" />
-            <element signature="e#7629#7722#0#PHP" />
-            <element signature="e#7749#7921#0#PHP" />
-            <element signature="e#7805#7915#0#PHP" />
-            <element signature="e#7874#7915#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/hdindex/Login/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="120" column="36" lean-forward="true" selection-start-line="120" selection-start-column="36" selection-end-line="120" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinkphp/start.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -665,9 +694,6 @@
           <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/indexg.php">
       <provider selected="true" editor-type-id="text-editor" />
@@ -698,10 +724,126 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/Index/assets/css_b/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="1220" column="14" selection-start-line="1220" selection-start-column="12" selection-end-line="1220" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/Index/assets/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="1460" column="25" selection-start-line="1460" selection-start-column="25" selection-end-line="1460" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/controller/Service.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="286">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hdindex/Login/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="120" column="36" selection-start-line="120" selection-start-column="36" selection-end-line="120" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#186#207#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hdindex/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#span#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#span#1;n#div#1;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#10637#11590#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/hdindex/css/iconfont.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hdindex/service/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="85" column="30" lean-forward="true" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hdindex/Login/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/controller/IndexBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/hdindex/assets/css/all_black.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="1336" column="13" selection-start-line="1336" selection-start-column="13" selection-end-line="1336" selection-end-column="13" />
         </state>
       </provider>
     </entry>

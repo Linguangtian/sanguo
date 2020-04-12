@@ -46,7 +46,7 @@ class Login extends Controller
                 Session::set('login_pwd',$data['data']['password']);
             }
 
-           header('location:'.$_SERVER['SERVER_NAME']);
+            $this->redirect("index.php/index/index");
             exit;
         }else{
             $config=unserialize(Db::name('system')->where('name','site_config')->value('value'));

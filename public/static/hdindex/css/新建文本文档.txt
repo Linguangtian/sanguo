@@ -1,0 +1,3 @@
+ <div class="layui-input-block">
+                            <input type="checkbox" name="site_config[secpass]" lay-skin="switch" lay-text="¿ªÆô|¹Ø±Õ" {notempty name="site_config.secpass"} checked {/notempty}>
+                        </div>

@@ -16,7 +16,7 @@ class IndexBase extends HomeBase
         parent::_initialize();
         if (!Session::has('user_id')) {
 
-            $this->redirect("index.php/login/index");
+            $this->redirect("login/index");
             exit;
         }
         $this->user_id=Session::get('user_id')?Session::get('user_id'):0;

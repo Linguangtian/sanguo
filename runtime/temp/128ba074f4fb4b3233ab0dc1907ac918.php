@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:31:"./themes/admin/index\index.html";i:1578813399;s:37:"F:\www3\qukuai\themes\admin\base.html";i:1578813413;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:31:"./themes/admin/index\index.html";i:1578813399;s:36:"E:\git\sanguo\themes\admin\base.html";i:1586619415;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -112,11 +112,7 @@
 
 
     <!--底部-->
-    <div class="layui-footer footer">
-        <div class="layui-main">
-            <p></p>
-        </div>
-    </div>
+
 </div>
 
 <script>

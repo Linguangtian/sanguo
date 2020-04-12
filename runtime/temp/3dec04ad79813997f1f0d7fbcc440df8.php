@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:35:"./themes/hdindex/service\index.html";i:1586615643;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:35:"./themes/hdindex/service\index.html";i:1586686456;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -89,13 +89,14 @@
                     <i class="iconfont icon-iconfontmark c2"></i>
                     <h3>線上客服</h3>
                 </a>
-            </div>
+
         </div>
-
-        <a class="ji-sc" href="/index/index/Integral_shop">
-           积分商城
+        <div class="item" style="width: 100%">
+        <a  href="/index/index/Integral_shop">
+             <i class="iconfont icon-tubiaofuben86 c2"></i>
+            <h3>积分商城</h3>
         </a>
-
+        </div>
 
 
     </div>

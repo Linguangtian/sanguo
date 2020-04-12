@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:33:"./themes/hdindex/login\index.html";i:1551682237;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:33:"./themes/hdindex/login\index.html";i:1586684869;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -128,7 +128,7 @@
                     //     webview.show();
                     // }, false);
 
-                    window.location.href = res.url;
+                    location.href= res.url;
                 } else {
                     if (res.code == 2) {
 
