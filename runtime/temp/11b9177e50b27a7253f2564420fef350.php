@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:34:"./themes/admin/task\task_edit.html";i:1586620707;s:36:"E:\git\sanguo\themes\admin\base.html";i:1586619415;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:34:"./themes/admin/task\task_edit.html";i:1586663160;s:36:"E:\git\sanguo\themes\admin\base.html";i:1586619415;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -204,9 +204,16 @@
 
 
                     <div class="layui-form-item">
-                        <label class="layui-form-label">价值（幸运/推广币）</label>
+                        <label class="layui-form-label">积分商品—幸运币</label>
                         <div class="layui-input-block" style="width: 32%;">
                             <input type="text" name="integral_price" value="<?php echo $taskInfo['integral_price']; ?>" required lay-verify="required" placeholder="价格" class="layui-input">
+                        </div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">积分商品—推广收益</label>
+                        <div class="layui-input-block" style="width: 32%;">
+                            <input type="text" name="share_integral_price" value="<?php echo $taskInfo['share_integral_price']; ?>" required lay-verify="required" placeholder="价格" class="layui-input">
                         </div>
                     </div>
 

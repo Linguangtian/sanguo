@@ -366,23 +366,26 @@ class Index extends IndexBase
             $this->error('非积分商城宠物');
         }
 
-        $salf=round($pigInfo['integral_price']/2,2);
+        $integral_price=round($pigInfo['integral_price'],2);
 
 
-            if( $this->user->pig <$salf  ){
-                $this->error('幸运币不足,兑换需'.$salf);
+            if( $this->user->pig <$integral_price  ){
+                $this->error('幸运币不足,兑换需'.$integral_price);
             }
 
-            if( $this->user->share_integral <$salf  ){
-                $this->error('推广收益不足,兑换需'.$salf);
+
+        $share_integral_price=round($pigInfo['share_integral_price'],2);
+
+            if( $this->user->share_integral <$share_integral_price  ){
+                $this->error('推广收益不足,兑换需'.$share_integral_price);
             }
 
 
             if($pigInfo['selled_stock']>=$pigInfo['max_stock']){
                 $this->error('库存不足');
             }
-
-            $pig_price=rand($pigInfo['min_price'],$pigInfo['max_price']);
+            $pig_price=$share_integral_price+$integral_price;
+           // $pig_price=rand($pigInfo['min_price'],$pigInfo['max_price']);
             $saveDate = [];
             $saveDate['uid'] = $this->user_id;
             $saveDate['pig_id'] = $pigInfo['id'];
@@ -412,8 +415,8 @@ class Index extends IndexBase
                 //更新用户猪对应的订单号
                 Db::name('user_pigs')->where('id',$sell_id)->update(['order_id'=>$order_id,'end_time'=>time()]);
                 //扣除eos
-                moneyLog($this->user_id,$this->user_id,'total_share_integral',-$salf,77,'兑换积分英雄订单：'. $sellOrder['order_no']);
-                moneyLog($this->user_id,$this->user_id,'pig',-$salf,77,'兑换积分英雄订单：'. $sellOrder['order_no']);
+                moneyLog($this->user_id,$this->user_id,'share_integral',-$share_integral_price,78,'兑换积分英雄订单：'. $sellOrder['order_no']);
+                moneyLog($this->user_id,$this->user_id,'pig',-$integral_price,78,'兑换积分英雄订单：'. $sellOrder['order_no']);
                 $this->success('兑换成功');
             }else{
                 $this->error('失败');

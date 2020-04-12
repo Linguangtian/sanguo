@@ -123,31 +123,8 @@
             {/volist}
       
         </div>
-        <div class="model">
-            <div class="modelBG"></div>
-            <div class="Box succeed" style="text-align: center;">
-                <img src="/public/static/index/assets/images/succeedPig.png" alt="">
-                <span class="fs36 fw_b">恭喜您<br>召唤成功!</span>
-                <span class="fs36 fw_b"><a href="/index/User/adopt_log"  class="gotolog">前往召唤记录</a></span>
-                <div class="closeBox" style="margin-top: 10%;" onclick="closeBox()"><img src="/public/static/index/assets/images/closeIcon.png" alt=""></div>
-            </div>
-            <div class="Box fail" style="text-align: center;">
-                <img src="/public/static/index/assets/images/failPig.png" alt="" style="text-align: center">
-                <span class="fs36 fw_b">好伤心<br>没召唤到区块武将</span>
-                <!--<span class="fs36 fw_b"><a href="/dist/pages/adopt_log.html"  class="gotolog">前往召唤记录</a></span>-->
-                <div class="closeBox" style="margin-top: 10%;" onclick="closeBox()"><img src="/public/static/index/assets/images/closeIcon.png" alt=""></div>
-            </div>
-            <div class="Box loading">
-                <div class="loadBox"><div></div><div></div><div></div><div></div><div></div></div>
-                <span class="fs36 fw_b">召唤中<br>请不要关闭</span>
-            </div>
-        </div>
-		 <div class="model3" id="model">
-            <div class="modelBG3"></div>
-            <div class="Box3 loading">
-                <div class="loadBox3"><div></div><div></div><div></div><div></div><div></div></div>
-            </div>
-        </div>
+
+
       </div>
       <div class="bottom-tabbar-wrapper">
 
@@ -174,9 +151,6 @@
 </script>
     <script>
     $(function(){
-
-   
-
         //按钮样式
         function btn_style(n,id){
             var html ;
@@ -249,11 +223,6 @@
             var but =  $(this);
 
 
-            $('.model').show();
-            //2019-3-12-----------
-            $('.succeed').hide();
-            $('.fail').hide();
-
 
             $.get('/index/Index/integral_buy',{id:id},function(data){
 
@@ -286,65 +255,7 @@
     var stage =  $('input[name=game_stage]');
     var timer;
     //checkGame();
-    function checkGame(){
-        var success = document.getElementById('success');
-        var error = document.getElementById('error');
-        local_ajax('/index/Index/checkGame',{},'get',function(data){
-            var now = Math.floor(Date.now() / 1000);
-            if(data.data.start_time < now && data.data.end_time > now){
-				$.get('/index/Index/yuyueStatus',{id:data.data.id},function (res) {
-                    //console.log(res);
-                    if (res.code==1) {
-                        $('.model').show()
-                        $('.succeed').hide();
-                        $('.fail').hide();
-                        $('.loading').show();
-                        $.post('/index/Index/checkOpen',{id:data.data.id}).then(function(res){
-                            if(res.code == 1){
-                                $('.succeed').show();
-                                $('.fail').hide();
-                                $('.loading').hide();
-                                success.play();
-                                $('#pig_level_'+ data.data.id +' .btns').html('<div class="button fs28 fw_b buttoning level_btn fanzhi">繁殖中</div>')
-                                clearInterval(timer);
-                                $('.model').show();
-                                //window.reload();
-                            }else if(res.code == 2){
-                                $('.succeed').hide();
-                                $('.fail').show();
-                                $('.loading').hide();
-                                error.play();
-                                $('#pig_level_'+ data.data.id +' .btns').html('<div class="button fs28 fw_b buttoning level_btn fanzhi">繁殖中</div>')
-                                clearInterval(timer);
-                                $('.model').show();
-                                //window.reload();
-                            }else if(res.code == 0){
-                                 //$('.succeed').hide();
-                                // $('.fail').show();
-                                // $('.loading').hide();
-                                 $('#pig_level_'+ data.data.id +' .btns').html('<div class="button fs28 fw_b buttoning">公布中</div>')
-                            }else{
-                                 $('.model').hide()
-                            }
-                        })
-                    } else {
-                        //$('#pig_level_'+ data.data.id +' .btns').html('<div class="button fs28 fw_b buttoning level_btn kaijiang" onclick="clickBuy('+data.data.id+')">开抢</div>')
-                    }
-                })
-
-				
-            }else if(data.data.end_time < now){
-               $.get('/index/Index/yuyueStatus',{id:data.data.id},function (res) {
-					if(res.code==0){
-						$('#pig_level_'+ data.data.id +' .btns').html('<div class="button fs28 fw_b buttoned" data-id="'+data.data.id+'">预约</div>');
-					}else{
-						$('#pig_level_'+ data.data.id +' .btns').html('<div class="button fs28 fw_b buttoning">已预约</div>')  
-						
-					}
-				}) 
-            }
-        })
-    }
+  
 
     $(document).on('click','.buttoned',function(){
 		 let thisid = $(this).data('id');
