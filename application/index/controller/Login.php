@@ -45,7 +45,9 @@ class Login extends Controller
                 Session::set('login_mobile',$data['data']['mobile']);
                 Session::set('login_pwd',$data['data']['password']);
             }
-            $this->success('登录成功', url('index/index'));
+
+           header('location:'.$_SERVER['SERVER_NAME']);
+            exit;
         }else{
             $config=unserialize(Db::name('system')->where('name','site_config')->value('value'));
             $this->assign('config',$config);
@@ -83,7 +85,7 @@ class Login extends Controller
                     'id'              => $user['id']
                 ]
             );
-            $this->success('登录成功', url('index/index'));
+            $this->success('登录成功', 'index.php/index/index');
         }else{
             $config=unserialize(Db::name('system')->where('name','site_config')->value('value'));
             $this->assign('config',$config);

@@ -17,6 +17,7 @@ class Service extends IndexBase
     public function index()
     {
         return view();
+        exit;
     }
     public function help_center()
     {
