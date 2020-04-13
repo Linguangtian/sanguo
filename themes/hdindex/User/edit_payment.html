@@ -33,7 +33,7 @@
             <div class="weui-cells weui-cells_form">
               <div class="weui-cell weui-cell_access">
                 <div class="weui-cell__bd">
-                  <input class="weui-input fs28 fw_b type" type="text" readonly id="type" value="微信支付" />
+                  <input class="weui-input fs28 fw_b type" type="text" readonly id="type" value="接口支付" />
                 </div>
                 <div class="weui-cell__ft"></div>
               </div>
@@ -153,7 +153,7 @@
     })
     $("#type").select({
       title: "开户银行",
-      items: ["微信", "支付宝","银行卡"],
+      items: ["接口支付","银行卡"],
       id: [1, 2,3]
     });
     $("#bank_name").select({
@@ -161,7 +161,7 @@
       title: "收款方式",
       items: ["中国银行",
               "中国建设银行",
-              "中国工商银行", 
+              "中国工商银行",
               "中国农业银行",
               "中国邮政储蓄银行",
               "招商银行",

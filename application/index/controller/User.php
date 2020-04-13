@@ -637,14 +637,12 @@ class User extends IndexBase
         $pay1['logo']  = '/public/static/index/assets/images/bank.png';
 
         $pay2['tpye']  = 2;
-        $pay2['name']  = '微信支付';
+        $pay2['name']  = '接口支付';
         $pay2['logo']  = '/public/static/index/assets/images/weixinpay.png';
 
-        $pay3['tpye']  = 1;
-        $pay3['name']  = '支付宝支付';
-        $pay3['logo']  = '/public/static/index/assets/images/alipay.png';
 
-        array_push($paymentlist, $pay1, $pay2, $pay3);
+
+        array_push($paymentlist, $pay1, $pay2);
 
         $map = [];
         $map['uid'] = ['eq',$this->user_id];
@@ -757,11 +755,9 @@ class User extends IndexBase
         //echo $id;
         $data = Db::name('user_payment')->where('id',$id)->find();
         switch ($data['type']) {
-            case 1:
-                $data['pay_name'] = '支付宝';
-                break;
+
             case 2:
-                $data['pay_name'] = '微信';
+                $data['pay_name'] = '接口支付';
                 break;
             case 3:
                 $data['pay_name'] = '银行卡';

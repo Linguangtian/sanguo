@@ -105,17 +105,7 @@
                 </div>
             {/volist}
 
-            <!--<div class="weui-cell box bankCard">-->
-            <!--<div class="weui-cell__hd">-->
-            <!--<img src="/public/static/index/assets/images/weixinpay.png" alt="">-->
-            <!--</div>-->
-            <!--<div class="weui-cell__bd">-->
-            <!--<div class="fs28 color_9">账户名称:<span class="color_3">我的女神</span></div>-->
-            <!--<a href="javascript:;" onclick="del('+obj.id+')"><img src="/public/static/index/assets/images/icon_trash3.png" class="close-popup"></a>-->
-            <!--<div class="fs28 color_9">账号:<span class="color_3">19563698756</span></div>-->
-            <!--<div class="fs28 color_9">账户类型:<span class="color_3">微信支付</span></div>-->
-            <!--</div>-->
-            <!--</div>-->
+
 
         </div>
         <div style=" line-height:20px;font-size: 14px;padding-top: 10px;margin: 13px; color: rebeccapurple;">
@@ -124,7 +114,7 @@
             <p>2，支付宝账号一定要确保输入账号能进行付款操作，不要关闭支付宝应用中的‘通过邮箱找到我’或‘通过手机号找到我’的隐私功能</p>
             <p>3，微信不要关闭通过手机号添加好友的功能。</p>
             <p>4，一定要认真填写银行卡收款信息。</p>
-            <p>5，至少要上传银行卡，支付宝，微信三种收款方式。</p>
+            <p>5，至少要一种收款方式。</p>
             <p style="color: #f20;">***请认真填写并上传收款方式，一旦通过审核，不得再修改和添加，银行卡收款方式不允许关闭***</p>
         </div>
 
@@ -142,46 +132,7 @@
     $(function () {
         FastClick.attach(document.body);
     });
-    // $(function(){
-    //     var url       = '/api/payment/user_payment'
-    //     var data      = {}
-    //     var mehod     = 'get';
-    //     var str       = '';
-    //     __ajax(url,data,mehod,function(data){
-    //       if (data.status == 200 ) {
-    //         console.log(data.data)
-    //         $.each(data.data, function(i, obj) {
-    //             //str += '<a href="javascript:;" onclick="edit_payment('+obj.id+')">';
-    //             str += '<div class="weui-cell box bankCard">';
-    //             str += '<div class="weui-cell__hd">';
-    //             str += '<img src="/public/static/index/assets/images/'+obj.type+'.png" alt="">';
-    //             str += '</div>';
-    //             str += '<div class="weui-cell__bd">';
-    //             str += '<div class="fs28 color_9">账户名称:<span class="color_3 name" id="name">'+obj.name+'</span></div>';
-    //             str += '<a href="javascript:;" onclick="del('+obj.id+')"><img src="/public/static/index/assets/images/icon_trash3.png" class="close-popup"></a>';
-    //             str += '<div class="fs28 color_9">账号:<span class="color_3">'+obj.account+'</span></div>';
-    //             str += '<div class="fs28 color_9">账户类型:<span class="color_3">'+obj.pay_name+'</span></div>';
-    //             str += '</div>';
-    //             str += '</div>';
-    //            // str += '</a>';
-    //           });
-    //         $('.weui-cells').append(str);
-    //       } else {
-    //
-    //         if(data.status == -1){
-    //             str += '<div class="butBox" style="color:red;">';
-    //             str +=  '您的收款账号存在异常,请联系管理员修改';
-    //             str += '</div>';
-    //         }else{
-    //             str += '<div class="butBox">';
-    //             str +=  '暂未添加银行卡';
-    //             str += '</div>';
-    //         }
-    //
-    //         $('.weui-cells').append(str);
-    //       }
-    //   });
-    // })
+
     function edit_payment(id, type) {
         window.location.href = '/index/User/edit_payment?id=' + id;
     }

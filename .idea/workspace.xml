@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4168b4ce-694c-4c63-8e88-a3cb3d9eef9c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/common/model/YunxinSmsApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common/model/YunxinSmsApi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/log/202004/12.log" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/log/202004/12.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/fb4f57369a58809f950180b7d6aac3e1.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/fb4f57369a58809f950180b7d6aac3e1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hdindex/Login/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hdindex/Login/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hdindex/User/bankcard.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hdindex/User/bankcard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hdindex/User/edit_payment.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hdindex/User/edit_payment.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,13 +19,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Login.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/index/controller/Login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="208" selection-start-line="208" selection-end-line="208" />
+            <state relative-caret-position="308">
+              <caret line="210" column="20" lean-forward="true" selection-start-line="210" selection-start-column="20" selection-end-line="210" selection-end-column="20" />
               <folding>
                 <element signature="e#186#207#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bankcard.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/hdindex/User/bankcard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="81" column="48" lean-forward="true" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/index/controller/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="639" column="30" selection-start-line="639" selection-start-column="26" selection-end-line="639" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_payment.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/hdindex/User/edit_payment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="155" column="19" selection-start-line="155" selection-start-column="19" selection-end-line="155" selection-end-column="19" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#8;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#8;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,7 +94,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>最高价格</find>
       <find>&lt;div class=&quot;layui-input-block&quot;&gt;</find>
       <find>lay-skin=&quot;switch&quot;</find>
       <find>今日召唤状态</find>
@@ -92,6 +123,7 @@
       <find>sendSMS</find>
       <find>zhuce-border</find>
       <find>mobile2</find>
+      <find>paymentlist</find>
     </findStrings>
     <replaceStrings>
       <replace>EOS</replace>
@@ -122,7 +154,6 @@
         <option value="$PROJECT_DIR$/themes/hdindex/User/index.html" />
         <option value="$PROJECT_DIR$/application/admin/controller/Wealth.php" />
         <option value="$PROJECT_DIR$/themes/hdindex/Index/index.html" />
-        <option value="$PROJECT_DIR$/application/index/controller/User.php" />
         <option value="$PROJECT_DIR$/themes/index/Index/index.html" />
         <option value="$PROJECT_DIR$/application/admin/controller/Task.php" />
         <option value="$PROJECT_DIR$/themes/admin/task/task_config.html" />
@@ -144,6 +175,9 @@
         <option value="$PROJECT_DIR$/themes/hdindex/Login/register.html" />
         <option value="$PROJECT_DIR$/application/common/model/YunxinSmsApi.php" />
         <option value="$PROJECT_DIR$/application/index/controller/Login.php" />
+        <option value="$PROJECT_DIR$/themes/hdindex/User/bankcard.html" />
+        <option value="$PROJECT_DIR$/application/index/controller/User.php" />
+        <option value="$PROJECT_DIR$/themes/hdindex/User/edit_payment.html" />
       </list>
     </option>
   </component>
@@ -157,8 +191,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="620" />
-    <option name="y" value="17" />
+    <option name="x" value="90" />
     <option name="width" value="1281" />
     <option name="height" value="917" />
   </component>
@@ -180,13 +213,20 @@
             <path>
               <item name="sanguo" type="b2602c69:ProjectViewProjectNode" />
               <item name="sanguo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="sanguo" type="b2602c69:ProjectViewProjectNode" />
               <item name="sanguo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="common" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="hdindex" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sanguo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sanguo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="hdindex" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="User" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -235,18 +275,18 @@
       <workItem from="1586673956168" duration="9934000" />
       <workItem from="1586693973918" duration="2814000" />
       <workItem from="1586707412092" duration="21000" />
-      <workItem from="1586780238536" duration="1376000" />
+      <workItem from="1586780238536" duration="2502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39030000" />
+    <option name="totallyTimeSpent" value="40156000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="620" y="17" width="1281" height="917" extended-state="0" />
+    <frame x="90" y="0" width="1281" height="917" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21264823" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21264823" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -306,16 +346,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="102" column="47" lean-forward="true" selection-start-line="102" selection-start-column="47" selection-end-line="102" selection-end-column="47" />
-          <folding>
-            <element signature="e#186#207#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/hdindex/Login/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6996">
@@ -469,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/common.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
@@ -508,13 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2325">
           <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/hdindex/User/edit_payment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="59" column="36" lean-forward="true" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -681,10 +697,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/index/controller/Login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="208" selection-start-line="208" selection-end-line="208" />
+        <state relative-caret-position="308">
+          <caret line="210" column="20" lean-forward="true" selection-start-line="210" selection-start-column="20" selection-end-line="210" selection-end-column="20" />
           <folding>
             <element signature="e#186#207#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hdindex/User/bankcard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="81" column="48" lean-forward="true" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="639" column="30" selection-start-line="639" selection-start-column="26" selection-end-line="639" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hdindex/User/edit_payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="155" column="19" selection-start-line="155" selection-start-column="19" selection-end-line="155" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#8;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#8;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
