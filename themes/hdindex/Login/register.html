@@ -106,6 +106,18 @@
                     </div>
                 </div>
 
+
+
+
+                <div class="Box pwd"><span class="fs24 color_9">备用手机号</span></div>
+                <div class="weui-cell">
+                    <div class="weui-cell__bd">
+                        <input class="weui-input fs28 fw_b code" type="text"  id="mobile2" placeholder="请输入备用手机号"/>
+                    </div>
+                </div>
+
+
+
                 <div class="Box pwd"><span class="fs24 color_9">邀请人</span></div>
                 <div class="weui-cell">
                     <div class="weui-cell__bd">
@@ -271,6 +283,7 @@
     }
     $('.but').click(function(){
         var mobile = $("#mobile").val();
+        var mobile2 = $("#mobile2").val();
         var nickname = $("#nickname").val();
         var code   = $(".code").val();
         var password = $('.password').val();
@@ -298,7 +311,22 @@
                 ,time: 1 //2秒后自动关闭
             });
             return false;
-        }else if (!invite){
+        }else if(!reg1.test(mobile2)){
+            layer.open({
+                content: '请输入备用手机号'
+                ,skin: 'msg'
+                ,time: 1 //2秒后自动关闭
+            });
+            return false;
+        } else if (!reg2.test(mobile2)){
+            layer.open({
+                content: '请输入正确的备用手机号码'
+                ,skin: 'msg'
+                ,time: 1 //2秒后自动关闭
+            });
+            return false;
+        }
+        else if (!invite){
             layer.open({
                 content: '请输入邀请人'
                 ,skin: 'msg'

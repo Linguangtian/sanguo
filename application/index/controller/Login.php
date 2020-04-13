@@ -202,13 +202,14 @@ class Login extends Controller
         $config=unserialize(Db::name('system')->where('name','site_config')->value('value'));
         if(isset($config['sms_open'])&&$config['sms_open']){
             //测试期关闭，云信短信
-            $msg=$config['sms_sign'].'您的验证码是'.$code.'。'; //【亚太区】
-            $result = model('YunxinSmsApi')->sendSMS($mobile, $msg ,'sendSMS');
-            $resultArr = explode(';',$result);
-            if ($sendResult && $resultArr[0]=='success') {
+            $msg='【'.$config['sms_sign'].'】您的验证码是'.$code.'。'; //【亚太区】
+
+            $result = model('YunxinSmsApi')->sendSMS($mobile, $msg );
+            $result=json_decode($result);
+            if ($result->data[0]->code===0) {
                 $this->success('发送成功');
             } else {
-                $this->error('发送失败：'.$result);
+                $this->error('发送失败：'.$result->data[0]->msg);
             }
         }else{
             $sendResult ? $this->success('验证码'.$code) : $this->error('发送失败');
